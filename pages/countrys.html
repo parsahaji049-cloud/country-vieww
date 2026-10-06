@@ -1,0 +1,1831 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>کشورنما|Country View</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../assets/Remixicon/remixicon.css" />
+        <link rel="shortcut icon" href="../assets/images/united.ico" type="image/x-icon">
+        <link rel="stylesheet" href="../css/respansiv.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="logo">
+            <a href="/"><h1>
+               <i class="ri-earth-fill"></i>کشورنما
+            </h1></a>
+        </div>
+             <div class="logo weather-btn">
+            <a href="../pages/weather.html"><h1>
+               <i class="ri-cloud-windy-fill"></i>آب و هوا
+            </h1></a>
+        </div>
+    </header>
+        <div class="filter-container">
+    <div class="filter-buttons">
+        <button class="filter-btn active" data-continent="all">🌍 همه</button>
+        <button class="filter-btn" data-continent="asia">🌏 آسیا</button>
+        <button class="filter-btn" data-continent="europe">🌍 اروپا</button>
+        <button class="filter-btn" data-continent="africa">🌍 آفریقا</button>
+        <button class="filter-btn" data-continent="north-america">🌎 آمریکای شمالی</button>
+        <button class="filter-btn" data-continent="south-america">🌎 آمریکای جنوبی</button>
+        <button class="filter-btn" data-continent="oceania">🌏 اقیانوسیه</button>
+    </div>
+</div>
+        <div class="stats" id="stats">
+            <div class="right stat-item">
+                <span class="stat-number" >205</span>
+                <span class="stat-label"><i class="ri-globe-fill"></i>کشور</span>
+            </div>
+            <div class="left stat-item">
+                <span class="stat-number">۸٫۰۵۵٫۸۶۹٫۷۰۳</span>
+                <span class="stat-label"><i class="ri-group-fill"></i>جمعیت کل</span>
+            </div>
+        </div>
+        <div class="search">
+                        <input 
+                    type="text" 
+                    id="searchInput" 
+                    placeholder="🔍 جستجوی کشور... (مثال: Iran)">
+        </div>
+        <hr>
+        <section class="countrys">
+            <!-- افغانستان -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/af.png" alt="پرچم افغانستان"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇦🇫 افغانستان</h3>
+        <p class="country-info">جمهوری اسلامی افغانستان، کشوری در جنوب آسیا است که از شمال با ترکمنستان، ازبکستان و تاجیکستان، از شرق با چین و پاکستان و از غرب با ایران همسایه است. این کشور با مساحتی حدود ۶۵۲,۲۳۰ کیلومتر مربع، به دلیل کوه‌های هندوکش، تاریخ کهن، جاده ابریشم و صنایع دستی (به ویژه قالی‌بافی) در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- آفریقای جنوبی -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/za.png" alt="پرچم آفریقای جنوبی"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇿🇦 آفریقای جنوبی</h3>
+        <p class="country-info">جمهوری آفریقای جنوبی، کشوری در جنوبی‌ترین نقطه آفریقا است که از شمال با نامیبیا، بوتسوانا و زیمبابوه، از شرق با موزامبیک و اسواتینی و از جنوب با اقیانوس اطلس و هند همسایه است. این کشور با مساحتی حدود ۱,۲۲۱,۰۳۷ کیلومتر مربع، به دلیل نلسون ماندلا، پارک ملی کروگر، کیپ تاون، الماس و طلا و تنوع قومی در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- آلبانی -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/al.png" alt="پرچم آلبانی"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇦🇱 آلبانی</h3>
+        <p class="country-info">جمهوری آلبانی، کشوری در جنوب شرقی اروپا و در شبه‌جزیره بالکان است که از شمال غرب با مونته‌نگرو، از شمال شرق با کوزوو، از شرق با مقدونیه شمالی و از جنوب با یونان همسایه است. این کشور با مساحتی حدود ۲۸,۷۴۸ کیلومتر مربع، به دلیل سواحل زیبای دریای آدریاتیک، کوه‌های آلپ آلبانی و تاریخ غنی خود در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- الجزایر -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/dz.png" alt="پرچم الجزایر"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇩🇿 الجزایر</h3>
+        <p class="country-info">جمهوری دموکراتیک خلق الجزایر، کشوری در شمال آفریقا است که از شمال با دریای مدیترانه، از شرق با تونس و لیبی، از جنوب با نیجر و مالی و از غرب با موریتانی و مراکش همسایه است. این کشور با مساحتی حدود ۲,۳۸۱,۷۴۱ کیلومتر مربع (بزرگ‌ترین کشور آفریقا)، به دلیل صحرای بزرگ آفریقا، نفت و گاز طبیعی و تاریخ کهن خود در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- آلمان -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/de.png" alt="پرچم آلمان"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇩🇪 آلمان</h3>
+        <p class="country-info">جمهوری فدرال آلمان، کشوری در اروپای مرکزی است که از شمال با دانمارک، از شرق با لهستان و جمهوری چک، از جنوب با اتریش و سوئیس و از غرب با فرانسه، لوکزامبورگ، بلژیک و هلند همسایه است. این کشور با مساحتی حدود ۳۵۷,۰۲۲ کیلومتر مربع، به عنوان بزرگترین اقتصاد اروپا، پیشرو در صنعت خودروسازی، مهندسی دقیق و یکی از تأثیرگذارترین کشورهای اتحادیه اروپا در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- آندورا -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/ad.png" alt="پرچم آندورا"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇦🇩 آندورا</h3>
+        <p class="country-info">حکومت آندورا، کشوری کوچک در جنوب غربی اروپا و در کوه‌های پیرنه است که از شمال با فرانسه و از جنوب با اسپانیا همسایه است. این کشور با مساحتی حدود ۴۶۸ کیلومتر مربع، به دلیل پیست‌های اسکی، معابد تاریخی و طبیعت بکر کوهستانی خود در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- آنگولا -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/ao.png" alt="پرچم آنگولا"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇦🇴 آنگولا</h3>
+        <p class="country-info">جمهوری آنگولا، کشوری در جنوب غربی آفریقا است که از شمال با جمهوری دموکراتیک کنگو، از شرق با زامبیا، از جنوب با نامیبیا و از غرب با اقیانوس اطلس همسایه است. این کشور با مساحتی حدود ۱,۲۴۶,۷۰۰ کیلومتر مربع، به دلیل ذخایر غنی نفت، الماس و تنوع زیستی خود در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- آنتیگوا و باربودا -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/ag.png" alt="پرچم آنتیگوا و باربودا"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇦🇬 آنتیگوا و باربودا</h3>
+        <p class="country-info">آنتیگوا و باربودا، کشوری در دریای کارائیب است که از جزایر آنتیگوا، باربودا و رداوندا تشکیل شده است. این کشور با مساحتی حدود ۴۴۲ کیلومتر مربع، به دلیل سواحل سفید، آب‌های شفاف و صنعت گردشگری پیشرفته خود در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- آرژانتین -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/ar.png" alt="پرچم آرژانتین"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇦🇷 آرژانتین</h3>
+        <p class="country-info">جمهوری آرژانتین، کشوری در جنوب شرقی آمریکای جنوبی است که از شمال با بولیوی و پاراگوئه، از شرق با برزیل، اروگوئه و اقیانوس اطلس، از غرب با شیلی و از جنوب با اقیانوس اطلس و تنگه ماژلان همسایه است. این کشور با مساحتی حدود ۲,۷۸۰,۴۰۰ کیلومتر مربع، به دلیل فوتبال، تانگو، دشت‌های پامپاس و گوشت گاو مرغوب خود در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+<!-- رواندا -->
+<!-- ارمنستان -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/am.png" alt="پرچم ارمنستان"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇦🇲 ارمنستان</h3>
+        <p class="country-info">جمهوری ارمنستان، کشوری در منطقه قفقاز جنوبی (غرب آسیا) است که از شمال با گرجستان، از شرق با جمهوری آذربایجان، از جنوب با ایران و نخجوان و از غرب با ترکیه همسایه است. این کشور با مساحتی حدود ۲۹,۷۴۳ کیلومتر مربع، به عنوان یکی از قدیمی‌ترین تمدن‌های جهان، کلیساهای تاریخی و صنعت فناوری اطلاعات شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- استرالیا -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/au.png" alt="پرچم استرالیا"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇦🇺 استرالیا</h3>
+        <p class="country-info">کشور مشترک‌المنافع استرالیا، کشوری در قاره اقیانوسیه است که از جنوب با اقیانوس هند و اقیانوس آرام، از شمال با اندونزی، تیمور شرقی و پاپوآ گینه نو و از شرق با نیوزیلند همسایه است. این کشور با مساحتی حدود ۷,۷۴۱,۲۲۰ کیلومتر مربع، به دلیل صخره بزرگ مرجانی، کانگورو، کوآلا، سواحل زیبا و طبیعت بکر خود در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- اتریش -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/at.png" alt="پرچم اتریش"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇦🇹 اتریش</h3>
+        <p class="country-info">جمهوری اتریش، کشوری در اروپای مرکزی است که از شمال با آلمان و جمهوری چک، از شرق با اسلواکی و مجارستان، از جنوب با اسلوونی و ایتالیا و از غرب با سوئیس و لیختن‌اشتاین همسایه است. این کشور با مساحتی حدود ۸۳,۸۷۹ کیلومتر مربع، به دلیل کوه‌های آلپ، موسیقی کلاسیک (موتسارت، اشتراوس)، کاخ شونبرون، وین و کیک زاخر در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- ازبکستان -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/uz.png" alt="پرچم ازبکستان"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇺🇿 ازبکستان</h3>
+        <p class="country-info">جمهوری ازبکستان، کشوری در آسیای مرکزی است که از شمال با قزاقستان، از شرق با قرقیزستان و تاجیکستان، از جنوب با افغانستان و ترکمنستان و از غرب با ترکمنستان همسایه است. این کشور با مساحتی حدود ۴۴۷,۴۰۰ کیلومتر مربع، به دلیل شهرهای تاریخی سمرقند و بخارا، جاده ابریشم و پنبه در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- اسپانیا -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/es.png" alt="پرچم اسپانیا"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇪🇸 اسپانیا</h3>
+        <p class="country-info">پادشاهی اسپانیا، کشوری در جنوب غربی اروپا در شبه‌جزیره ایبری است که از شمال با فرانسه و آندورا، از غرب با پرتغال و اقیانوس اطلس و از شرق و جنوب با دریای مدیترانه همسایه است. این کشور با مساحتی حدود ۵۰۵,۹۹۰ کیلومتر مربع، به دلیل گاوبازی، فلامنکو، سانگریا، آثار گائودی، سواحل کوستا دل سول و تاریخ غنی اندلس در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- اسلواکی -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/sk.png" alt="پرچم اسلواکی"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇸🇰 اسلواکی</h3>
+        <p class="country-info">جمهوری اسلواکی، کشوری در اروپای مرکزی است که از شمال با لهستان، از شرق با اوکراین، از جنوب با مجارستان و از غرب با اتریش و جمهوری چک همسایه است. این کشور با مساحتی حدود ۴۹,۰۳۵ کیلومتر مربع، به دلیل کوه‌های تاترا، قلعه‌های تاریخی و مناظر طبیعی بکر خود در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- اسلوونی -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/si.png" alt="پرچم اسلوونی"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇸🇮 اسلوونی</h3>
+        <p class="country-info">جمهوری اسلوونی، کشوری در اروپای مرکزی است که از شمال با اتریش، از شرق با مجارستان، از جنوب با کرواسی و از غرب با ایتالیا همسایه است. این کشور با مساحتی حدود ۲۰,۲۷۳ کیلومتر مربع، به دلیل دریاچه بلد، کوه‌های آلپ و سواحل دریای آدریاتیک در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- اسواتینی -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/sz.png" alt="پرچم اسواتینی"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇸🇿 اسواتینی</h3>
+        <p class="country-info">پادشاهی اسواتینی (سوازیلند سابق)، کشوری در جنوب آفریقا است که از شمال، غرب و جنوب با آفریقای جنوبی و از شرق با موزامبیک همسایه است. این کشور با مساحتی حدود ۱۷,۳۶۴ کیلومتر مربع، به دلیل فرهنگ غنی، جشنواره‌های سنتی و تنوع زیستی خود در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- اکوادور -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/ec.png" alt="پرچم اکوادور"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇪🇨 اکوادور</h3>
+        <p class="country-info">جمهوری اکوادور، کشوری در شمال غربی آمریکای جنوبی است که از شمال با کلمبیا، از شرق و جنوب با پرو و از غرب با اقیانوس آرام همسایه است. این کشور با مساحتی حدود ۲۸۳,۵۶۱ کیلومتر مربع، به دلیل جزایر گالاپاگوس، کوه‌های آند و تنوع زیستی خود در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- امارات متحده عربی -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/ae.png" alt="پرچم امارات متحده عربی"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇦🇪 امارات متحده عربی</h3>
+        <p class="country-info">امارات متحده عربی، کشوری در غرب آسیا (خاورمیانه) است که از شمال با خلیج فارس، از شرق با عمان، از جنوب با عربستان سعودی و از غرب با قطر همسایه است. این کشور با مساحتی حدود ۸۳,۶۰۰ کیلومتر مربع، به دلیل برج خلیفه (بلندترین ساختمان جهان)، جزایر مصنوعی، مراکز خرید لوکس و رشد اقتصادی شگفت‌انگیز در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- اندونزی -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/id.png" alt="پرچم اندونزی"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇮🇩 اندونزی</h3>
+        <p class="country-info">جمهوری اندونزی، کشوری در جنوب شرقی آسیا و بزرگترین کشور جزیره‌ای جهان است که از شمال با مالزی، سنگاپور و فیلیپین، از شرق با پاپوآ گینه نو و از جنوب با استرالیا همسایه است. این کشور با مساحتی حدود ۱,۹۰۴,۵۶۹ کیلومتر مربع، به دلیل جزایر بالی و جاوا، آتشفشان‌های فعال، جنگل‌های بارانی و تنوع فرهنگی در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- انگلستان (بریتانیا) -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/gb.png" alt="پرچم بریتانیا"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇬🇧 بریتانیا</h3>
+        <p class="country-info">پادشاهی متحد بریتانیای کبیر و ایرلند شمالی، کشوری جزیره‌ای در شمال غربی اروپا است که از شرق با دریای شمال، از جنوب با کانال مانش، از غرب با دریای ایرلند و اقیانوس اطلس و از شمال با اقیانوس اطلس همسایه است. این کشور با مساحتی حدود ۲۴۳,۶۱۰ کیلومتر مربع، به عنوان مهد انقلاب صنعتی، خانواده سلطنتی، ادبیات غنی (شکسپیر)، موسیقی (بیتلز) و شهر لندن در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- اوکراین -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/ua.png" alt="پرچم اوکراین"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇺🇦 اوکراین</h3>
+        <p class="country-info">اوکراین، کشوری در اروپای شرقی است که از شمال با بلاروس، از شرق و شمال شرق با روسیه، از جنوب با دریای سیاه و دریای آزوف و از غرب با لهستان، اسلواکی، مجارستان، رومانی و مولداوی همسایه است. این کشور با مساحتی حدود ۶۰۳,۶۲۸ کیلومتر مربع (بزرگ‌ترین کشور اروپا)، به دلیل دشت‌های حاصلخیز (انبار غله اروپا)، کلیساهای گنبدطلایی و تاریخ پرفرازونشیب در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- اردن -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/jo.png" alt="پرچم اردن"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇯🇴 اردن</h3>
+        <p class="country-info">پادشاهی اردن، کشوری در غرب آسیا (خاورمیانه) است که از شمال با سوریه، از شرق با عراق و عربستان سعودی، از جنوب با عربستان سعودی و از غرب با فلسطین اشغالی و دریای مرده همسایه است. این کشور با مساحتی حدود ۸۹,۳۴۲ کیلومتر مربع، به دلیل شهر تاریخی پترا، دریای مرده و بیابان وادی رم در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- ارمنستان قبلا داده شد -->
+
+<!-- اروگوئه -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/uy.png" alt="پرچم اروگوئه"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇺🇾 اروگوئه</h3>
+        <p class="country-info">جمهوری شرقی اروگوئه، کشوری در جنوب شرقی آمریکای جنوبی است که از شمال با برزیل، از غرب با آرژانتین و از جنوب و شرق با اقیانوس اطلس همسایه است. این کشور با مساحتی حدود ۱۷۶,۲۱۵ کیلومتر مربع، به دلیل سواحل زیبا، گوشت گاو مرغوب و پیشرفت اجتماعی در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- ازبکستان قبلا داده شد -->
+
+
+<!-- ایرلند -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/ie.png" alt="پرچم ایرلند"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇮🇪 ایرلند</h3>
+        <p class="country-info">جمهوری ایرلند، کشوری در شمال غربی اروپا و جزیره ایرلند است که از شمال با ایرلند شمالی (بریتانیا)، از شرق با دریای ایرلند و بریتانیا، از جنوب با دریای سلتیک و از غرب با اقیانوس اطلس همسایه است. این کشور با مساحتی حدود ۷۰,۲۷۳ کیلومتر مربع، به دلیل طبیعت سرسبز، فرهنگ گالیک، موسیقی محلی، آبجوی گینس و جشنواره سنت پاتریک در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- ایتالیا -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/it.png" alt="پرچم ایتالیا"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇮🇹 ایتالیا</h3>
+        <p class="country-info">جمهوری ایتالیا، کشوری در جنوب اروپا است که در شبه‌جزیره ایتالیا قرار دارد و از شمال با فرانسه، سوئیس، اتریش و اسلوونی همسایه است. این کشور با مساحتی حدود ۳۰۱,۳۴۰ کیلومتر مربع، به دلیل تمدن روم باستان، رنسانس، هنر و معماری بی‌نظیر، غذاهای مشهور جهانی و شهرهایی مانند رم، ونیز و فلورانس در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- ایران -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/ir.png" alt="پرچم ایران"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇮🇷 ایران</h3>
+        <p class="country-info">جمهوری اسلامی ایران، کشوری در غرب آسیا (خاورمیانه) است که از شمال با ارمنستان، جمهوری آذربایجان، ترکمنستان و دریای خزر، از شرق با افغانستان و پاکستان، از غرب با ترکیه و عراق و از جنوب با خلیج فارس و دریای عمان همسایه است. این کشور با مساحتی حدود ۱,۶۴۸,۱۹۵ کیلومتر مربع، به دلیل تمدن کهن چندین هزارساله، تنوع اقلیمی، آثار تاریخی بی‌نظیر و مهمان‌نوازی مردم خود در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- ایسلند -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/is.png" alt="پرچم ایسلند"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇮🇸 ایسلند</h3>
+        <p class="country-info">ایسلند، کشوری جزیره‌ای در شمال اقیانوس اطلس است که از شمال با دریای گرینلند، از شرق با دریای نروژ و از جنوب غرب با اقیانوس اطلس همسایه است. این کشور با مساحتی حدود ۱۰۳,۰۰۰ کیلومتر مربع، به دلیل چشمه‌های آب گرم، یخچال‌های طبیعی، شفق شمالی و زیبایی‌های طبیعی بکر خود در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- باربادوس -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/bb.png" alt="پرچم باربادوس"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇧🇧 باربادوس</h3>
+        <p class="country-info">باربادوس، کشوری جزیره‌ای در دریای کارائیب است که از شرق با اقیانوس اطلس و از غرب با دریای کارائیب همسایه است. این کشور با مساحتی حدود ۴۳۰ کیلومتر مربع، به دلیل سواحل سفید، آب‌های شفاف و صنعت گردشگری پیشرفته خود در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- بحرین -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/bh.png" alt="پرچم بحرین"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇧🇭 بحرین</h3>
+        <p class="country-info">پادشاهی بحرین، کشوری در غرب آسیا (خاورمیانه) و در خلیج فارس است که از غرب با عربستان سعودی و از جنوب و شرق با خلیج فارس همسایه است. این کشور با مساحتی حدود ۷۶۵ کیلومتر مربع، به عنوان یکی از قطب‌های مالی و بانکی خاورمیانه، صنعت نفت و جزایر مصنوعی خود در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- برزیل -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/br.png" alt="پرچم برزیل"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇧🇷 برزیل</h3>
+        <p class="country-info">جمهوری فدراتیو برزیل، کشوری در آمریکای جنوبی است که از شمال با ونزوئلا، گویان، سورینام و گویان فرانسه، از شمال غرب با کلمبیا، از غرب با پرو و بولیوی، از جنوب غرب با پاراگوئه و آرژانتین، از جنوب با اروگوئه و از شرق با اقیانوس اطلس همسایه است. این کشور با مساحتی حدود ۸,۵۱۵,۷۶۷ کیلومتر مربع (بزرگ‌ترین کشور آمریکای جنوبی)، به دلیل جنگل‌های آمازون، فوتبال فوق‌العاده، کارناوال رنگارنگ ریو و فرهنگ پرانرژی خود در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- برونئی -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/bn.png" alt="پرچم برونئی"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇧🇳 برونئی</h3>
+        <p class="country-info">برونئی دارالسلام، کشوری در جنوب شرقی آسیا و در جزیره بورنئو است که از شمال با دریای چین جنوبی و از جنوب با مالزی همسایه است. این کشور با مساحتی حدود ۵,۷۶۵ کیلومتر مربع، به دلیل ثروت نفت و گاز، معماری اسلامی و طبیعت بکر خود در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- بلاروس -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/by.png" alt="پرچم بلاروس"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇧🇾 بلاروس</h3>
+        <p class="country-info">جمهوری بلاروس، کشوری در اروپای شرقی است که از شمال با لیتوانی و لتونی، از شرق با روسیه، از جنوب با اوکراین و از غرب با لهستان همسایه است. این کشور با مساحتی حدود ۲۰۷,۶۰۰ کیلومتر مربع، به دلیل جنگل‌های انبوه، معماری شوروی و صنعت کشاورزی خود در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- بلژیک -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/be.png" alt="پرچم بلژیک"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇧🇪 بلژیک</h3>
+        <p class="country-info">پادشاهی بلژیک، کشوری در شمال غربی اروپا است که از شمال با هلند، از شرق با آلمان، از جنوب با لوکزامبورگ و فرانسه و از غرب با دریای شمال همسایه است. این کشور با مساحتی حدود ۳۰,۵۲۸ کیلومتر مربع، به دلیل شکلات‌های معروف، وافل، سیب‌زمینی سرخ‌کرده، ساختمان اتحادیه اروپا (بروکسل) و سه زبان رسمی در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- بلغارستان -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/bg.png" alt="پرچم بلغارستان"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇧🇬 بلغارستان</h3>
+        <p class="country-info">جمهوری بلغارستان، کشوری در جنوب شرقی اروپا و در شبه‌جزیره بالکان است که از شمال با رومانی، از شرق با دریای سیاه، از جنوب با یونان و ترکیه و از غرب با صربستان و مقدونیه شمالی همسایه است. این کشور با مساحتی حدود ۱۱۰,۹۹۴ کیلومتر مربع، به دلیل سواحل دریای سیاه، کوه‌های بالکان و گل رز معروف خود در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- بنین -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/bj.png" alt="پرچم بنین"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇧🇯 بنین</h3>
+        <p class="country-info">جمهوری بنین، کشوری در غرب آفریقا است که از شمال با نیجر، از شرق با نیجریه، از غرب با توگو و از جنوب با خلیج گینه همسایه است. این کشور با مساحتی حدود ۱۱۲,۶۲۲ کیلومتر مربع، به دلیل فرهنگ وودون، پارک‌های ملی و صنعت کشاورزی خود در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- بوتان -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/bt.png" alt="پرچم بوتان"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇧🇹 بوتان</h3>
+        <p class="country-info">پادشاهی بوتان، کشوری در جنوب آسیا و در شرق هیمالیا است که از شمال با چین (تبت) و از جنوب با هند همسایه است. این کشور با مساحتی حدود ۳۸,۳۹۴ کیلومتر مربع، به دلیل شاخص خوشبختی ناخالص ملی، صومعه‌های بودایی و طبیعت بکر خود در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- بوتسوانا -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/bw.png" alt="پرچم بوتسوانا"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇧🇼 بوتسوانا</h3>
+        <p class="country-info">جمهوری بوتسوانا، کشوری در جنوب آفریقا است که از شمال با زامبیا و زیمبابوه، از شرق با آفریقای جنوبی و از غرب با نامیبیا همسایه است. این کشور با مساحتی حدود ۵۸۱,۷۳۰ کیلومتر مربع، به دلیل دلتای اوکاوانگو، حیات وحش غنی و الماس در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- بورکینافاسو -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/bf.png" alt="پرچم بورکینافاسو"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇧🇫 بورکینافاسو</h3>
+        <p class="country-info">بورکینافاسو، کشوری در غرب آفریقا است که از شمال با مالی، از شرق با نیجر، از جنوب با بنین، توگو، غنا و ساحل عاج و از غرب با مالی همسایه است. این کشور با مساحتی حدود ۲۷۴,۲۰۰ کیلومتر مربع، به دلیل فرهنگ موسیقی، صنعت پنبه و پارک‌های ملی در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- بولیوی -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/bo.png" alt="پرچم بولیوی"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇧🇴 بولیوی</h3>
+        <p class="country-info">دولت چندملیتی بولیوی، کشوری در غرب آمریکای جنوبی است که از شمال با برزیل و پرو، از شرق با برزیل و پاراگوئه، از جنوب با آرژانتین و پاراگوئه و از غرب با شیلی و پرو همسایه است. این کشور با مساحتی حدود ۱,۰۹۸,۵۸۱ کیلومتر مربع، به دلیل کوه‌های آند، دریاچه تیتیکاکا و جنگل‌های آمازون در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- بوسنی و هرزگوین -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/ba.png" alt="پرچم بوسنی و هرزگوین"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇧🇦 بوسنی و هرزگوین</h3>
+        <p class="country-info">بوسنی و هرزگوین، کشوری در جنوب شرقی اروپا و در شبه‌جزیره بالکان است که از شمال با کرواسی، از شرق با صربستان و از جنوب با مونته‌نگرو همسایه است. این کشور با مساحتی حدود ۵۱,۱۹۷ کیلومتر مربع، به دلیل تاریخ پیچیده، معماری عثمانی و کوه‌های زیبای خود در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- بوتسوانا قبلا داده شد -->
+
+<!-- بروندی -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/bi.png" alt="پرچم بروندی"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇧🇮 بروندی</h3>
+        <p class="country-info">جمهوری بروندی، کشوری در شرق آفریقا است که از شمال با رواندا، از شرق با تانزانیا و از غرب با جمهوری دموکراتیک کنگو همسایه است. این کشور با مساحتی حدود ۲۷,۸۳۴ کیلومتر مربع، به دلیل دریاچه تانگانیکا، قهوه و چای در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- تاجیکستان -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/tj.png" alt="پرچم تاجیکستان"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇹🇯 تاجیکستان</h3>
+        <p class="country-info">جمهوری تاجیکستان، کشوری در آسیای مرکزی است که از شمال با قرقیزستان، از شرق با چین، از جنوب با افغانستان و از غرب با ازبکستان همسایه است. این کشور با مساحتی حدود ۱۴۳,۱۰۰ کیلومتر مربع، به دلیل کوه‌های بلند پامیر (بام جهان)، دریاچه‌های بکر، طبیعت دست‌نخورده و فرهنگ غنی فارسی‌زبان در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- تایلند -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/th.png" alt="پرچم تایلند"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇹🇭 تایلند</h3>
+        <p class="country-info">پادشاهی تایلند، کشوری در جنوب شرقی آسیا است که از شمال با میانمار و لائوس، از شرق با کامبوج و خلیج تایلند، از جنوب با مالزی و از غرب با دریای آندامان همسایه است. این کشور با مساحتی حدود ۵۱۳,۱۲۰ کیلومتر مربع، به عنوان کشور لبخندها، معابد بودایی، غذاهای تند (تام یوم، پد تای) و سواحل زیبا در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- تانزانیا -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/tz.png" alt="پرچم تانزانیا"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇹🇿 تانزانیا</h3>
+        <p class="country-info">جمهوری متحد تانزانیا، کشوری در شرق آفریقا است که از شمال با کنیا و اوگاندا، از غرب با رواندا، بروندی و جمهوری دموکراتیک کنگو، از جنوب با زامبیا، مالاوی و موزامبیک و از شرق با اقیانوس هند همسایه است. این کشور با مساحتی حدود ۹۴۵,۰۸۷ کیلومتر مربع، به دلیل کوه کلیمانجارو، پارک‌های ملی و جزیره زنگبار در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- توگو -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/tg.png" alt="پرچم توگو"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇹🇬 توگو</h3>
+        <p class="country-info">جمهوری توگو، کشوری در غرب آفریقا است که از شمال با بورکینافاسو، از شرق با بنین، از غرب با غنا و از جنوب با خلیج گینه همسایه است. این کشور با مساحتی حدود ۵۶,۷۸۵ کیلومتر مربع، به دلیل کشاورزی، معادن فسفات و فرهنگ موسیقی خود در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- تونس -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/tn.png" alt="پرچم تونس"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇹🇳 تونس</h3>
+        <p class="country-info">جمهوری تونس، کشوری در شمال آفریقا است که از شمال با دریای مدیترانه، از شرق با لیبی، از جنوب با الجزایر و از غرب با الجزایر همسایه است. این کشور با مساحتی حدود ۱۶۳,۶۱۰ کیلومتر مربع، به دلیل کارتاژ باستان، سواحل زیبا و انقلاب یاس‌مین در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- ترکیه -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/tr.png" alt="پرچم ترکیه"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇹🇷 ترکیه</h3>
+        <p class="country-info">جمهوری ترکیه، کشوری در اوراسیا (بین اروپا و آسیا) است که از شمال غرب با یونان و بلغارستان، از شمال شرق با گرجستان، ارمنستان و جمهوری آذربایجان (نخجوان)، از شرق با ایران و از جنوب با عراق و سوریه همسایه است. این کشور با مساحتی حدود ۷۸۳,۵۶۲ کیلومتر مربع، به عنوان پل میان شرق و غرب، کاخ‌های عثمانی، غذاهای بی‌نظیر (کباب، باقلوا) و استانبول (شهر دو قاره) در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- ترکمنستان -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/tm.png" alt="پرچم ترکمنستان"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇹🇲 ترکمنستان</h3>
+        <p class="country-info">ترکمنستان، کشوری در آسیای مرکزی است که از شمال با قزاقستان، از شرق با ازبکستان و افغانستان، از جنوب با ایران و از غرب با دریای خزر همسایه است. این کشور با مساحتی حدود ۴۸۸,۱۰۰ کیلومتر مربع، به دلیل ذخایر گاز طبیعی، فرش‌های دست‌بافت و بیابان قره‌قوم در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- ترینیداد و توباگو -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/tt.png" alt="پرچم ترینیداد و توباگو"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇹🇹 ترینیداد و توباگو</h3>
+        <p class="country-info">جمهوری ترینیداد و توباگو، کشوری در دریای کارائیب است که از شمال با دریای کارائیب و از شرق با اقیانوس اطلس همسایه است. این کشور با مساحتی حدود ۵,۱۳۱ کیلومتر مربع، به دلیل کارناوال، موسیقی کالیپسو و نفت در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- چاد -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/td.png" alt="پرچم چاد"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇹🇩 چاد</h3>
+        <p class="country-info">جمهوری چاد، کشوری در شمال مرکزی آفریقا است که از شمال با لیبی، از شرق با سودان، از جنوب با جمهوری آفریقای مرکزی و از غرب با نیجر، نیجریه و کامرون همسایه است. این کشور با مساحتی حدود ۱,۲۸۴,۰۰۰ کیلومتر مربع، به دلیل بیابان صحرا، دریاچه چاد و تنوع قومی در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- چین -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/cn.png" alt="پرچم چین"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇨🇳 چین</h3>
+        <p class="country-info">جمهوری خلق چین، کشوری در شرق آسیا است که از شمال با مغولستان و روسیه، از شرق با کره شمالی و دریای چین شرقی، از جنوب با ویتنام، لائوس، میانمار و دریای چین جنوبی و از غرب با هند، پاکستان، افغانستان، تاجیکستان، قرقیزستان و قزاقستان همسایه است. این کشور با مساحتی حدود ۹,۵۹۶,۹۶۰ کیلومتر مربع، به عنوان پرجمعیت‌ترین کشور جهان، دیوار بزرگ چین، تمدن کهن و قدرت اقتصادی برتر در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- جمهوری آذربایجان -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/az.png" alt="پرچم جمهوری آذربایجان"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇦🇿 جمهوری آذربایجان</h3>
+        <p class="country-info">جمهوری آذربایجان، کشوری در منطقه قفقاز جنوبی (غرب آسیا) است که از شمال با روسیه (داغستان)، از شمال غرب با گرجستان، از غرب با ارمنستان، از جنوب با ایران و از شرق با دریای خزر همسایه است. این کشور با مساحتی حدود ۸۶,۶۰۰ کیلومتر مربع، به دلیل نفت و گاز، باکو (شهر بادها) و فرهنگ غنی خود در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- جمهوری آفریقای مرکزی -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/cf.png" alt="پرچم جمهوری آفریقای مرکزی"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇨🇫 جمهوری آفریقای مرکزی</h3>
+        <p class="country-info">جمهوری آفریقای مرکزی، کشوری در مرکز آفریقا است که از شمال با چاد، از شرق با سودان و سودان جنوبی، از جنوب با جمهوری دموکراتیک کنگو و از غرب با کامرون همسایه است. این کشور با مساحتی حدود ۶۲۲,۹۸۴ کیلومتر مربع، به دلیل جنگل‌های بارانی، الماس و تنوع زیستی خود در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- جمهوری چک -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/cz.png" alt="پرچم جمهوری چک"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇨🇿 جمهوری چک</h3>
+        <p class="country-info">جمهوری چک، کشوری در اروپای مرکزی است که از شمال با لهستان، از شرق با اسلواکی، از جنوب با اتریش و از غرب با آلمان همسایه است. این کشور با مساحتی حدود ۷۸,۸۶۷ کیلومتر مربع، به دلیل قلعه‌های قرون وسطایی، آبجوی معروف (پیلزنر)، کریستال بوهمی و شهر زیبای پراگ در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- جمهوری دموکراتیک کنگو -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/cd.png" alt="پرچم جمهوری دموکراتیک کنگو"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇨🇩 جمهوری دموکراتیک کنگو</h3>
+        <p class="country-info">جمهوری دموکراتیک کنگو، کشوری در مرکز آفریقا است که از شمال با جمهوری آفریقای مرکزی و سودان جنوبی، از شرق با اوگاندا، رواندا، بروندی و تانزانیا، از جنوب با زامبیا و آنگولا و از غرب با کنگو و اقیانوس اطلس همسایه است. این کشور با مساحتی حدود ۲,۳۴۴,۸۵۸ کیلومتر مربع، به دلیل جنگل‌های بارانی، رودخانه کنگو و معادن الماس در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- دومینیکا -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/dm.png" alt="پرچم دومینیکا"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇩🇲 دومینیکا</h3>
+        <p class="country-info">کشور مشترک‌المنافع دومینیکا، کشوری جزیره‌ای در دریای کارائیب است که از شمال با گوادلوپ و از جنوب با مارتینیک همسایه است. این کشور با مساحتی حدود ۷۵۱ کیلومتر مربع، به دلیل چشمه‌های آب گرم، جنگل‌های بارانی و سواحل بکر در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- دومینیکن -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/do.png" alt="پرچم دومینیکن"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇩🇴 دومینیکن</h3>
+        <p class="country-info">جمهوری دومینیکن، کشوری در دریای کارائیب و در جزیره هیسپانیولا است که از شمال با اقیانوس اطلس، از شرق با تنگه مونا، از جنوب با دریای کارائیب و از غرب با هائیتی همسایه است. این کشور با مساحتی حدود ۴۸,۶۷۰ کیلومتر مربع، به دلیل سواحل زیبا، موسیقی مرنگه و صنعت گردشگری پیشرفته در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- رواندا -->
+<a href="./country.html?name=رواندا"><div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/rw.png" alt="پرچم رواندا"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇷🇼 رواندا</h3>
+        <p class="country-info">جمهوری رواندا، کشوری در شرق آفریقا است که از شمال با اوگاندا، از شرق با تانزانیا، از جنوب با بروندی و از غرب با جمهوری دموکراتیک کنگو همسایه است. این کشور با مساحتی حدود ۲۶,۳۳۸ کیلومتر مربع، به دلیل کوه‌های هزار تپه، گوریل‌های کوهستانی و پیشرفت اقتصادی در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+</a>
+<!-- ژاپن -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/jp.png" alt="پرچم ژاپن"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇯🇵 ژاپن</h3>
+        <p class="country-info">ژاپن، کشوری در شرق آسیا است که از شرق و جنوب با اقیانوس آرام، از شمال با دریای اختسک و از غرب با دریای ژاپن و کره جنوبی همسایه است. این کشور با مساحتی حدود ۳۷۷,۹۷۵ کیلومتر مربع، به دلیل تکنولوژی پیشرفته، فرهنگ غنی (سامورایی، گیشا)، انیمه و مانگا، غذاهای سنتی (سوشی، رامن) و شکوفه‌های گیلاس در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- ساحل عاج -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/ci.png" alt="پرچم ساحل عاج"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇨🇮 ساحل عاج</h3>
+        <p class="country-info">جمهوری ساحل عاج، کشوری در غرب آفریقا است که از شمال با مالی و بورکینافاسو، از شرق با غنا، از غرب با گینه و لیبریا و از جنوب با خلیج گینه همسایه است. این کشور با مساحتی حدود ۳۲۲,۴۶۳ کیلومتر مربع، به عنوان بزرگترین تولیدکننده کاکائو در جهان، معادن طلا و تنوع فرهنگی در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- سنگال -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/sn.png" alt="پرچم سنگال"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇸🇳 سنگال</h3>
+        <p class="country-info">جمهوری سنگال، کشوری در غرب آفریقا است که از شمال با موریتانی، از شرق با مالی، از جنوب با گینه و گینه بیسائو و از غرب با اقیانوس اطلس همسایه است. این کشور با مساحتی حدود ۱۹۶,۷۲۲ کیلومتر مربع، به دلیل دریاچه صورتی، موسیقی مبالاخ، صنعت گردشگری و کشاورزی در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- سودان -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/sd.png" alt="پرچم سودان"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇸🇩 سودان</h3>
+        <p class="country-info">جمهوری سودان، کشوری در شمال شرق آفریقا است که از شمال با مصر، از شرق با اریتره و اتیوپی، از جنوب با سودان جنوبی و از غرب با چاد و لیبی همسایه است. این کشور با مساحتی حدود ۱,۸۸۶,۰۶۸ کیلومتر مربع، به دلیل رودخانه نیل، تاریخ کهن و تنوع قومی در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- سودان جنوبی -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/ss.png" alt="پرچم سودان جنوبی"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇸🇸 سودان جنوبی</h3>
+        <p class="country-info">جمهوری سودان جنوبی، کشوری در شرق آفریقا و جدیدترین کشور جهان است که از شمال با سودان، از شرق با اتیوپی، از جنوب با کنیا، اوگاندا و جمهوری دموکراتیک کنگو و از غرب با جمهوری آفریقای مرکزی همسایه است. این کشور با مساحتی حدود ۶۱۹,۷۴۵ کیلومتر مربع، به دلیل نفت، تنوع قومی و تاریخ استقلال خود در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- سوریه -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/sy.png" alt="پرچم سوریه"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇸🇾 سوریه</h3>
+        <p class="country-info">جمهوری عربی سوریه، کشوری در غرب آسیا (خاورمیانه) است که از شمال با ترکیه، از شرق با عراق، از جنوب با اردن و فلسطین اشغالی و از غرب با لبنان و دریای مدیترانه همسایه است. این کشور با مساحتی حدود ۱۸۵,۱۸۰ کیلومتر مربع، به دلیل تاریخ کهن، شهر دمشق (قدیمی‌ترین پایتخت جهان) و آثار باستانی در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- سومالی -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/so.png" alt="پرچم سومالی"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇸🇴 سومالی</h3>
+        <p class="country-info">جمهوری فدرال سومالی، کشوری در شرق آفریقا (شاخ آفریقا) است که از شمال با جیبوتی، از غرب با اتیوپی، از جنوب غرب با کنیا و از شرق با اقیانوس هند همسایه است. این کشور با مساحتی حدود ۶۳۷,۶۵۷ کیلومتر مربع، به دلیل سواحل طولانی، شتر و تاریخ دریانوردی در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- سیرالئون -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/sl.png" alt="پرچم سیرالئون"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇸🇱 سیرالئون</h3>
+        <p class="country-info">جمهوری سیرالئون، کشوری در غرب آفریقا است که از شمال با گینه، از شرق با لیبریا و از غرب با اقیانوس اطلس همسایه است. این کشور با مساحتی حدود ۷۱,۷۴۰ کیلومتر مربع، به دلیل معادن الماس، سواحل زیبا و تاریخ استعمار در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- سنگاپور -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/sg.png" alt="پرچم سنگاپور"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇸🇬 سنگاپور</h3>
+        <p class="country-info">جمهوری سنگاپور، کشوری در جنوب شرقی آسیا و یک شهر-کشور است که از شمال با مالزی (از طریق تنگه جوهور) و از جنوب با اندونزی (از طریق تنگه سنگاپور) همسایه است. این کشور با مساحتی حدود ۷۲۸ کیلومتر مربع، به عنوان یکی از پیشرفته‌ترین اقتصادهای جهان، آسمان‌خراش‌های مدرن و تنوع فرهنگی در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- سوئد -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/se.png" alt="پرچم سوئد"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇸🇪 سوئد</h3>
+        <p class="country-info">پادشاهی سوئد، کشوری در شمال اروپا (اسکاندیناوی) است که از غرب با نروژ، از شمال شرق با فنلاند، از شرق با دریای بالتیک و از جنوب با دانمارک (از طریق پل اورسوند) همسایه است. این کشور با مساحتی حدود ۴۵۰,۲۹۵ کیلومتر مربع، به دلیل سیستم رفاهی عالی، مبلمان ایکیا، گروه موسیقی آبا، طبیعت بکر و شادی بالای مردم در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- سوئیس -->
+<div class="country-bio">
+    <div class="country-flags suis"><img class="flag" src="https://flagcdn.com/w320/ch.png" alt="پرچم سوئیس"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇨🇭 سوئیس</h3>
+        <p class="country-info">کنفدراسیون سوئیس، کشوری در اروپای مرکزی است که از شمال با آلمان، از شرق با اتریش و لیختن‌اشتاین، از جنوب با ایتالیا و از غرب با فرانسه همسایه است. این کشور با مساحتی حدود ۴۱,۲۸۵ کیلومتر مربع، به دلیل کوه‌های آلپ، دریاچه‌های زیبا، سیستم بانکی پیشرفته، صنعت ساعت‌سازی، شکلات‌های معروف و سیاست بی‌طرفی تاریخی خود در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- سیشل -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/sc.png" alt="پرچم سیشل"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇸🇨 سیشل</h3>
+        <p class="country-info">جمهوری سیشل، کشوری جزیره‌ای در اقیانوس هند است که از شمال شرق با موریس و از جنوب غرب با ماداگاسکار همسایه است. این کشور با مساحتی حدود ۴۵۵ کیلومتر مربع، به دلیل سواحل سفید، آب‌های شفاف و تنوع زیستی منحصر‌به‌فرد در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- شیلی -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/cl.png" alt="پرچم شیلی"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇨🇱 شیلی</h3>
+        <p class="country-info">جمهوری شیلی، کشوری در غرب آمریکای جنوبی است که از شمال با پرو، از شرق با بولیوی و آرژانتین و از غرب با اقیانوس آرام همسایه است. این کشور با مساحتی حدود ۷۵۶,۱۰۲ کیلومتر مربع، به دلیل کوه‌های آند، صحرای آتاکاما، جزیره ایستر و صنعت مس در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- صربستان -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/rs.png" alt="پرچم صربستان"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇷🇸 صربستان</h3>
+        <p class="country-info">جمهوری صربستان، کشوری در جنوب شرقی اروپا و در شبه‌جزیره بالکان است که از شمال با مجارستان، از شرق با رومانی و بلغارستان، از جنوب با مقدونیه شمالی و کوزوو و از غرب با کرواسی، بوسنی و هرزگوین و مونته‌نگرو همسایه است. این کشور با مساحتی حدود ۷۷,۴۷۴ کیلومتر مربع، به دلیل تاریخ پیچیده، فرهنگ غنی و قلعه‌های قرون وسطایی در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- عراق -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/iq.png" alt="پرچم عراق"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇮🇶 عراق</h3>
+        <p class="country-info">جمهوری عراق، کشوری در غرب آسیا (خاورمیانه) است که از شمال با ترکیه، از شرق با ایران، از جنوب با کویت و عربستان سعودی و از غرب با سوریه و اردن همسایه است. این کشور با مساحتی حدود ۴۳۸,۳۱۷ کیلومتر مربع، به عنوان مهد تمدن بین‌النهرین، رودهای دجله و فرات و نفت در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- عربستان سعودی -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/sa.png" alt="پرچم عربستان سعودی"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇸🇦 عربستان سعودی</h3>
+        <p class="country-info">پادشاهی عربستان سعودی، کشوری در غرب آسیا (خاورمیانه) است که از شمال با اردن، عراق و کویت، از شرق با قطر، امارات و بحرین، از جنوب با یمن و عمان و از غرب با دریای سرخ همسایه است. این کشور با مساحتی حدود ۲,۱۴۹,۶۹۰ کیلومتر مربع، به عنوان مهد اسلام (مکه و مدینه)، بزرگترین صادرکننده نفت، بیابان‌های وسیع و تحولات مدرن در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- عمان -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/om.png" alt="پرچم عمان"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇴🇲 عمان</h3>
+        <p class="country-info">سلطنت عمان، کشوری در غرب آسیا (خاورمیانه) است که از شمال با امارات متحده عربی، از شرق با دریای عمان، از جنوب با یمن و از غرب با عربستان سعودی همسایه است. این کشور با مساحتی حدود ۳۰۹,۵۰۰ کیلومتر مربع، به دلیل سواحل زیبا، قلعه‌های تاریخی و صنعت گردشگری در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- غنا -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/gh.png" alt="پرچم غنا"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇬🇭 غنا</h3>
+        <p class="country-info">جمهوری غنا، کشوری در غرب آفریقا است که از شمال با بورکینافاسو، از شرق با توگو، از غرب با ساحل عاج و از جنوب با خلیج گینه همسایه است. این کشور با مساحتی حدود ۲۳۸,۵۳۳ کیلومتر مربع، به عنوان اولین کشور آفریقایی که استقلال خود را به دست آورد، طلا، کاکائو و موسیقی در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- فیلیپین -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/ph.png" alt="پرچم فیلیپین"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇵🇭 فیلیپین</h3>
+        <p class="country-info">جمهوری فیلیپین، کشوری در جنوب شرقی آسیا و مجمع‌الجزایری در اقیانوس آرام است که از شمال با تایوان، از غرب با دریای چین جنوبی و ویتنام و از جنوب با اندونزی و مالزی همسایه است. این کشور با مساحتی حدود ۳۰۰,۰۰۰ کیلومتر مربع، به دلیل هزاران جزیره، سواحل سفید، مردم خونگرم، جشنواره‌های رنگارنگ و غذاهای متنوع در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- فلسطین -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/ps.png" alt="پرچم فلسطین"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇵🇸 فلسطین</h3>
+        <p class="country-info">کشور فلسطین، در غرب آسیا (خاورمیانه) واقع شده است که از غرب با دریای مدیترانه، از شمال و شرق با سرزمین‌های اشغالی و از جنوب با مصر همسایه است. فلسطین با مساحتی حدود ۶,۲۲۰ کیلومتر مربع، به دلیل اماکن مقدس (مسجدالاقصی، کلیسای مقبره مقدس)، تاریخ کهن و مبارزات مردم خود در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- فنلاند -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/fi.png" alt="پرچم فنلاند"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇫🇮 فنلاند</h3>
+        <p class="country-info">جمهوری فنلاند، کشوری در شمال اروپا (اسکاندیناوی) است که از شمال با نروژ، از شرق با روسیه، از جنوب با خلیج فنلاند و از غرب با سوئد همسایه است. این کشور با مساحتی حدود ۳۳۸,۴۲۴ کیلومتر مربع، به دلیل هزاران دریاچه، شفق شمالی، سونا، سیستم آموزشی برتر و شادترین مردم جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- فیجی -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/fj.png" alt="پرچم فیجی"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇫🇯 فیجی</h3>
+        <p class="country-info">جمهوری فیجی، کشوری جزیره‌ای در اقیانوس آرام است که از شمال با اقیانوس آرام، از شرق با تونگا و از غرب با وانواتو همسایه است. این کشور با مساحتی حدود ۱۸,۲۷۴ کیلومتر مربع، به دلیل سواحل سفید، آب‌های شفاف و فرهنگ غنی در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- قبرس -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/cy.png" alt="پرچم قبرس"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇨🇾 قبرس</h3>
+        <p class="country-info">جمهوری قبرس، کشوری جزیره‌ای در شرق دریای مدیترانه است که از شمال با ترکیه، از شرق با سوریه و لبنان، از جنوب با مصر و از غرب با یونان همسایه است. این کشور با مساحتی حدود ۹,۲۵۱ کیلومتر مربع، به دلیل سواحل زیبا، تاریخ کهن و تقسیم‌بندی سیاسی خود در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- قزاقستان -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/kz.png" alt="پرچم قزاقستان"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇰🇿 قزاقستان</h3>
+        <p class="country-info">جمهوری قزاقستان، کشوری در آسیای مرکزی و بزرگترین کشور محصور در خشکی جهان است که از شمال با روسیه، از شرق با چین، از جنوب با قرقیزستان، ازبکستان و ترکمنستان و از غرب با دریای خزر همسایه است. این کشور با مساحتی حدود ۲,۷۲۴,۹۰۰ کیلومتر مربع، به دلیل نفت، گاز، استپ‌های وسیع و شهرهای مدرن در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- قطر -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/qa.png" alt="پرچم قطر"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇶🇦 قطر</h3>
+        <p class="country-info">دولت قطر، کشوری در غرب آسیا (خاورمیانه) و در شبه‌جزیره عربستان است که از جنوب با عربستان سعودی، از شرق با خلیج فارس و از غرب با بحرین همسایه است. این کشور با مساحتی حدود ۱۱,۵۸۶ کیلومتر مربع، به دلیل ثروت نفت و گاز، شهر دوحه و میزبانی جام جهانی ۲۰۲۲ در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- قرقیزستان -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/kg.png" alt="پرچم قرقیزستان"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇰🇬 قرقیزستان</h3>
+        <p class="country-info">جمهوری قرقیزستان، کشوری در آسیای مرکزی است که از شمال با قزاقستان، از شرق با چین، از غرب با ازبکستان و از جنوب با تاجیکستان همسایه است. این کشور با مساحتی حدود ۱۹۹,۹۵۱ کیلومتر مربع، به دلیل کوه‌های تیان‌شان، دریاچه ایسیک‌کول و فرهنگ کوچ‌نشینی در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- کامبوج -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/kh.png" alt="پرچم کامبوج"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇰🇭 کامبوج</h3>
+        <p class="country-info">پادشاهی کامبوج، کشوری در جنوب شرقی آسیا است که از شمال با تایلند و لائوس، از شرق با ویتنام و از جنوب با خلیج تایلند همسایه است. این کشور با مساحتی حدود ۱۸۱,۰۳۵ کیلومتر مربع، به دلیل معابد آنگکور، تاریخ کهن و فرهنگ غنی خود در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- کامرون -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/cm.png" alt="پرچم کامرون"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇨🇲 کامرون</h3>
+        <p class="country-info">جمهوری کامرون، کشوری در غرب آفریقا است که از شمال با چاد، از شرق با جمهوری آفریقای مرکزی، از جنوب با کنگو، گابن و گینه استوایی و از غرب با نیجریه و خلیج گینه همسایه است. این کشور با مساحتی حدود ۴۷۵,۴۴۲ کیلومتر مربع، به دلیل تنوع فرهنگی، نفت و کشاورزی در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- کانادا -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/ca.png" alt="پرچم کانادا"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇨🇦 کانادا</h3>
+        <p class="country-info">کانادا، کشوری در شمال آمریکای شمالی است که از جنوب و غرب با ایالات متحده آمریکا، از شمال با اقیانوس منجمد شمالی و از شرق با اقیانوس اطلس همسایه است. این کشور با مساحتی حدود ۹,۹۸۴,۶۷۰ کیلومتر مربع (دومین کشور بزرگ جهان)، به دلیل جنگل‌های انبوه، دریاچه‌های فراوان، برگ افرا، شربت افرا و چندفرهنگی بودن خود در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- کرواسی -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/hr.png" alt="پرچم کرواسی"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇭🇷 کرواسی</h3>
+        <p class="country-info">جمهوری کرواسی، کشوری در جنوب شرقی اروپا و در شبه‌جزیره بالکان است که از شمال با اسلوونی و مجارستان، از شرق با صربستان و بوسنی و هرزگوین، از جنوب با مونته‌نگرو و از غرب با دریای آدریاتیک همسایه است. این کشور با مساحتی حدود ۵۶,۵۹۴ کیلومتر مربع، به دلیل سواحل زیبای دریای آدریاتیک، شهر دوبروونیک و پارک‌های ملی در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- کره جنوبی -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/kr.png" alt="پرچم کره جنوبی"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇰🇷 کره جنوبی</h3>
+        <p class="country-info">جمهوری کره، کشوری در شرق آسیا و در شبه‌جزیره کره است که از شمال با کره شمالی، از شرق با دریای ژاپن، از غرب با دریای زرد و از جنوب با تنگه کره و چین همسایه است. این کشور با مساحتی حدود ۱۰۰,۲۱۰ کیلومتر مربع، به دلیل تکنولوژی پیشرفته (سامسونگ، الجی)، موسیقی کی‌پاپ، فیلم‌های کرهای و غذاهای کیمچی در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- کره شمالی -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/kp.png" alt="پرچم کره شمالی"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇰🇵 کره شمالی</h3>
+        <p class="country-info">جمهوری دموکراتیک خلق کره، کشوری در شرق آسیا و در شبه‌جزیره کره است که از شمال با چین و روسیه، از شرق با دریای ژاپن و از غرب با دریای زرد همسایه است. این کشور با مساحتی حدود ۱۲۰,۵۴۰ کیلومتر مربع، به دلیل نظام سیاسی بسته، برنامه هسته‌ای و تاریخ پیچیده خود در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- کاستاریکا -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/cr.png" alt="پرچم کاستاریکا"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇨🇷 کاستاریکا</h3>
+        <p class="country-info">جمهوری کاستاریکا، کشوری در آمریکای مرکزی است که از شمال با نیکاراگوئه، از جنوب با پاناما، از شرق با دریای کارائیب و از غرب با اقیانوس آرام همسایه است. این کشور با مساحتی حدود ۵۱,۱۰۰ کیلومتر مربع، به دلیل طبیعت بکر، تنوع زیستی و سیاست بی‌طرفی در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- کلمبیا -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/co.png" alt="پرچم کلمبیا"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇨🇴 کلمبیا</h3>
+        <p class="country-info">جمهوری کلمبیا، کشوری در شمال غربی آمریکای جنوبی است که از شمال با دریای کارائیب، از شرق با ونزوئلا و برزیل، از جنوب با پرو و اکوادور و از غرب با اقیانوس آرام همسایه است. این کشور با مساحتی حدود ۱,۱۴۱,۷۴۸ کیلومتر مربع، به دلیل قهوه، زمرد، موسیقی سالسا و تنوع زیستی در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- کنگو (جمهوری) -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/cg.png" alt="پرچم کنگو"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇨🇬 کنگو</h3>
+        <p class="country-info">جمهوری کنگو، کشوری در غرب مرکزی آفریقا است که از شمال با کامرون و جمهوری آفریقای مرکزی، از شرق با جمهوری دموکراتیک کنگو، از جنوب با آنگولا و از غرب با گابن و خلیج گینه همسایه است. این کشور با مساحتی حدود ۳۴۲,۰۰۰ کیلومتر مربع، به دلیل نفت، جنگل‌های بارانی و رودخانه کنگو در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+<!-- کنیا -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/ke.png" alt="پرچم کنیا"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇰🇪 کنیا</h3>
+        <p class="country-info">جمهوری کنیا، کشوری در شرق آفریقا است که از شمال با اتیوپی، از شرق با سومالی، از جنوب با تانزانیا، از غرب با اوگاندا و سودان جنوبی و از جنوب شرق با اقیانوس هند همسایه است. این کشور با مساحتی حدود ۵۸۰,۳۶۷ کیلومتر مربع، به دلیل پارک‌های ملی، مهاجرت بزرگ جانوران، کوه کلیمانجارو و دونده‌های معروف جهان در شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- کوبا -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/cu.png" alt="پرچم کوبا"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇨🇺 کوبا</h3>
+        <p class="country-info">جمهوری کوبا، کشوری در دریای کارائیب است که از شمال با اقیانوس اطلس، از شرق با هائیتی، از جنوب با دریای کارائیب و از غرب با مکزیک همسایه است. این کشور با مساحتی حدود ۱۰۹,۸۸۴ کیلومتر مربع، به دلیل موسیقی سالسا، سیگارهای برگ برگ، انقلاب کوبا، خودروهای کلاسیک و سواحل زیبای خود در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- کویت -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/kw.png" alt="پرچم کویت"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇰🇼 کویت</h3>
+        <p class="country-info">دولت کویت، کشوری در غرب آسیا (خاورمیانه) و در شبه‌جزیره عربستان است که از شمال با عراق، از جنوب با عربستان سعودی و از شرق با خلیج فارس همسایه است. این کشور با مساحتی حدود ۱۷,۸۱۸ کیلومتر مربع، به دلیل ثروت نفت، برج‌های مدرن و صنعت مالی در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- گابن -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/ga.png" alt="پرچم گابن"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇬🇦 گابن</h3>
+        <p class="country-info">جمهوری گابن، کشوری در غرب مرکزی آفریقا است که از شمال با گینه استوایی و کامرون، از شرق با جمهوری کنگو و از غرب با اقیانوس اطلس همسایه است. این کشور با مساحتی حدود ۲۶۷,۶۶۸ کیلومتر مربع، به دلیل جنگل‌های بارانی، نفت و تنوع زیستی در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- گامبیا -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/gm.png" alt="پرچم گامبیا"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇬🇲 گامبیا</h3>
+        <p class="country-info">جمهوری گامبیا، کشوری در غرب آفریقا و کوچک‌ترین کشور سرزمین اصلی آفریقا است که از شمال، شرق و جنوب با سنگال و از غرب با اقیانوس اطلس همسایه است. این کشور با مساحتی حدود ۱۱,۲۹۵ کیلومتر مربع، به دلیل رودخانه گامبیا، سواحل زیبا و صنعت گردشگری در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- گرجستان -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/ge.png" alt="پرچم گرجستان"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇬🇪 گرجستان</h3>
+        <p class="country-info">گرجستان، کشوری در منطقه قفقاز (مرز اروپا و آسیا) است که از شمال با روسیه، از جنوب با ارمنستان و ترکیه، از شرق با جمهوری آذربایجان و از غرب با دریای سیاه همسایه است. این کشور با مساحتی حدود ۶۹,۷۰۰ کیلومتر مربع، به دلیل فرهنگ غنی، شراب‌های سنتی و طبیعت کوهستانی در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- گواتمالا -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/gt.png" alt="پرچم گواتمالا"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇬🇹 گواتمالا</h3>
+        <p class="country-info">جمهوری گواتمالا، کشوری در آمریکای مرکزی است که از شمال با مکزیک، از شرق با بلیز و دریای کارائیب، از جنوب با السالوادور و هندوراس و از غرب با اقیانوس آرام همسایه است. این کشور با مساحتی حدود ۱۰۸,۸۸۹ کیلومتر مربع، به دلیل تمدن مایا، آتشفشان‌ها و فرهنگ غنی در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- گینه -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/gn.png" alt="پرچم گینه"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇬🇳 گینه</h3>
+        <p class="country-info">جمهوری گینه، کشوری در غرب آفریقا است که از شمال با گینه بیسائو، سنگال و مالی، از شرق با ساحل عاج، از جنوب با لیبریا و سیرالئون و از غرب با اقیانوس اطلس همسایه است. این کشور با مساحتی حدود ۲۴۵,۸۵۷ کیلومتر مربع، به دلیل معادن بوکسیت، الماس و تنوع فرهنگی در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- گینه استوایی -->
+ <a href="./country.html?name=گینه استوایی">
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/gq.png" alt="پرچم گینه استوایی"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇬🇶 گینه استوایی</h3>
+        <p class="country-info">جمهوری گینه استوایی، کشوری در غرب مرکزی آفریقا است که از شمال با کامرون، از شرق و جنوب با گابن و از غرب با خلیج گینه همسایه است. این کشور با مساحتی حدود ۲۸,۰۵۱ کیلومتر مربع، به دلیل نفت و گاز طبیعی، جنگل‌های بارانی و جزیره بیوکو در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+</a>
+<!-- گینه بیسائو -->
+ <a href="./country.html?name=%DA%AF%DB%8C%D9%86%D9%87%20%D8%A8%DB%8C%D8%B3%D8%A7%D8%A6%D9%88"></a>
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/gw.png" alt="پرچم گینه بیسائو"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇬🇼 گینه بیسائو</h3>
+        <p class="country-info">جمهوری گینه بیسائو، کشوری در غرب آفریقا است که از شمال با سنگال، از شرق با گینه و از غرب با اقیانوس اطلس همسایه است. این کشور با مساحتی حدود ۳۶,۱۲۵ کیلومتر مربع، به دلیل صنعت گردشگری، بادام‌زمینی و تاریخ استعمار در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- گویان -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/gy.png" alt="پرچم گویان"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇬🇾 گویان</h3>
+        <p class="country-info">جمهوری گویان، کشوری در شمال شرقی آمریکای جنوبی است که از شمال با اقیانوس اطلس، از شرق با سورینام، از جنوب با برزیل و از غرب با ونزوئلا همسایه است. این کشور با مساحتی حدود ۲۱۴,۹۶۹ کیلومتر مربع، به دلیل جنگل‌های آمازون، معادن طلا و الماس در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- لائوس -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/la.png" alt="پرچم لائوس"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇱🇦 لائوس</h3>
+        <p class="country-info">جمهوری دموکراتیک خلق لائوس، کشوری در جنوب شرقی آسیا است که از شمال با چین، از شرق با ویتنام، از جنوب با کامبوج و از غرب با تایلند و میانمار همسایه است. این کشور با مساحتی حدود ۲۳۶,۸۰۰ کیلومتر مربع، به دلیل معابد بودایی، مناظر طبیعی و فرهنگ غنی خود در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- لبنان -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/lb.png" alt="پرچم لبنان"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇱🇧 لبنان</h3>
+        <p class="country-info">جمهوری لبنان، کشوری در غرب آسیا (خاورمیانه) است که از شمال با سوریه، از شرق با سوریه، از جنوب با اسرائیل و از غرب با دریای مدیترانه همسایه است. این کشور با مساحتی حدود ۱۰,۴۰۰ کیلومتر مربع، به دلیل تاریخ کهن، تنوع مذهبی، غذاهای مدیترانه‌ای و پایتخت آن بیروت در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- لتونی -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/lv.png" alt="پرچم لتونی"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇱🇻 لتونی</h3>
+        <p class="country-info">جمهوری لتونی، کشوری در شمال شرقی اروپا (کشورهای بالتیک) است که از شمال با استونی، از شرق با روسیه، از جنوب با لیتوانی و از غرب با دریای بالتیک همسایه است. این کشور با مساحتی حدود ۶۴,۵۸۹ کیلومتر مربع، به دلیل جنگل‌های انبوه، سواحل دریای بالتیک و معماری قرون وسطایی در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- لیتوانی -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/lt.png" alt="پرچم لیتوانی"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇱🇹 لیتوانی</h3>
+        <p class="country-info">جمهوری لیتوانی، کشوری در شمال شرقی اروپا (کشورهای بالتیک) است که از شمال با لتونی، از شرق با بلاروس، از جنوب با لهستان و از غرب با دریای بالتیک همسایه است. این کشور با مساحتی حدود ۶۵,۳۰۰ کیلومتر مربع، به دلیل تاریخ غنی، شهر ویلنیوس و فرهنگ بالتیک در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- لیختن‌اشتاین -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/li.png" alt="پرچم لیختن‌اشتاین"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇱🇮 لیختن‌اشتاین</h3>
+        <p class="country-info">شاهزاده‌نشین لیختن‌اشتاین، کشوری کوچک در اروپای مرکزی است که از شرق با اتریش و از غرب با سوئیس همسایه است. این کشور با مساحتی حدود ۱۶۰ کیلومتر مربع، به دلیل صنعت مالی، کوه‌های آلپ و استاندارد بالای زندگی در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- لهستان -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/pl.png" alt="پرچم لهستان"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇵🇱 لهستان</h3>
+        <p class="country-info">جمهوری لهستان، کشوری در اروپای مرکزی است که از غرب با آلمان، از جنوب با جمهوری چک و اسلواکی، از شرق با اوکراین و بلاروس و از شمال با لیتوانی، روسیه (کالینینگراد) و دریای بالتیک همسایه است. این کشور با مساحتی حدود ۳۱۲,۶۸۵ کیلومتر مربع، به دلیل تاریخ پرفرازونشیب، فردریک شوپن، قلعه‌های قرون وسطایی و شهر کراکوف در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- لوکزامبورگ -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/lu.png" alt="پرچم لوکزامبورگ"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇱🇺 لوکزامبورگ</h3>
+        <p class="country-info">دوکنشین بزرگ لوکزامبورگ، کشوری کوچک در اروپای غربی است که از شمال با بلژیک، از شرق با آلمان و از جنوب با فرانسه همسایه است. این کشور با مساحتی حدود ۲,۵۸۶ کیلومتر مربع، به عنوان یکی از ثروتمندترین کشورهای جهان، مرکز مالی اروپا و قلعه‌های قرون وسطایی در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- لیبی -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/ly.png" alt="پرچم لیبی"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇱🇾 لیبی</h3>
+        <p class="country-info">دولت لیبی، کشوری در شمال آفریقا است که از شمال با دریای مدیترانه، از شرق با مصر و سودان، از جنوب با چاد و نیجر و از غرب با الجزایر و تونس همسایه است. این کشور با مساحتی حدود ۱,۷۵۹,۵۴۱ کیلومتر مربع، به دلیل صحرای بزرگ آفریقا، نفت و تاریخ کهن خود در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- ماداگاسکار -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/mg.png" alt="پرچم ماداگاسکار"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇲🇬 ماداگاسکار</h3>
+        <p class="country-info">جمهوری ماداگاسکار، کشوری جزیره‌ای در اقیانوس هند و در سواحل شرقی آفریقا است که از شمال با کومور، از شرق با اقیانوس هند و از غرب با کانال موزامبیک همسایه است. این کشور با مساحتی حدود ۵۸۷,۰۴۱ کیلومتر مربع، به دلیل تنوع زیستی منحصر‌به‌فرد (لمورها)، جنگل‌های بارانی و وانیل در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- مالزی -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/my.png" alt="پرچم مالزی"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇲🇾 مالزی</h3>
+        <p class="country-info">مالزی، کشوری در جنوب شرقی آسیا است که از شمال با تایلند، از جنوب با سنگاپور و اندونزی و از شرق با فیلیپین و دریای چین جنوبی همسایه است. این کشور با مساحتی حدود ۳۲۹,۸۴۷ کیلومتر مربع، به دلیل برج‌های دوقلوی پتروناس، جنگل‌های بارانی، تنوع فرهنگی (مالایی، چینی، هندی) و غذاهای خیابانی در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- مالت -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/mt.png" alt="پرچم مالت"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇲🇹 مالت</h3>
+        <p class="country-info">جمهوری مالت، کشوری جزیره‌ای در دریای مدیترانه است که از شمال با ایتالیا و از جنوب با تونس و لیبی همسایه است. این کشور با مساحتی حدود ۳۱۶ کیلومتر مربع، به دلیل تاریخ کهن (شوالیه‌های مالت)، معماری باروک و سواحل زیبا در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- مایوت -->
+<!-- مایوت قلمرو فرانسه است و کشور مستقلی محسوب نمی‌شود -->
+
+<!-- مجارستان -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/hu.png" alt="پرچم مجارستان"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇭🇺 مجارستان</h3>
+        <p class="country-info">مجارستان، کشوری در اروپای مرکزی است که از شمال با اسلواکی، از شرق با اوکراین و رومانی، از جنوب با صربستان و کرواسی و از غرب با اتریش و اسلوونی همسایه است. این کشور با مساحتی حدود ۹۳,۰۳۰ کیلومتر مربع، به دلیل رودخانه دانوب، ساختمان پارلمان بوداپست، حمام‌های آب گرم و غذاهای تند (پاپریکا، گولاش) در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- مراکش -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/ma.png" alt="پرچم مراکش"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇲🇦 مراکش</h3>
+        <p class="country-info">پادشاهی مراکش، کشوری در شمال آفریقا است که از شمال با تنگه جبل‌طارق و اسپانیا، از شرق با الجزایر، از جنوب با موریتانی و از غرب با اقیانوس اطلس همسایه است. این کشور با مساحتی حدود ۴۴۶,۵۵۰ کیلومتر مربع، به دلیل شهرهای قدیمی (مراکش، فاس)، صحرای بزرگ آفریقا، غذاهای معروف (طاجین) و صنعت گردشگری در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- موناکو -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/mc.png" alt="پرچم موناکو"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇲🇨 موناکو</h3>
+        <p class="country-info">شاهزاده‌نشین موناکو، کشوری کوچک در اروپای غربی و در ساحل دریای مدیترانه است که از شمال با فرانسه و از جنوب با دریای مدیترانه همسایه است. این کشور با مساحتی حدود ۲.۰۲ کیلومتر مربع (دومین کشور کوچک جهان)، به دلیل کازینو مونت‌کارلو، مسابقات فرمول یک و زندگی لوکس در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- مونته‌نگرو -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/me.png" alt="پرچم مونته‌نگرو"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇲🇪 مونته‌نگرو</h3>
+        <p class="country-info">مونته‌نگرو، کشوری در جنوب شرقی اروپا و در شبه‌جزیره بالکان است که از شمال با صربستان و بوسنی و هرزگوین، از شرق با کوزوو، از جنوب با آلبانی و از غرب با دریای آدریاتیک همسایه است. این کشور با مساحتی حدود ۱۳,۸۱۲ کیلومتر مربع، به دلیل سواحل زیبای دریای آدریاتیک، خلیج کوتور و طبیعت کوهستانی در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- موریتانی -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/mr.png" alt="پرچم موریتانی"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇲🇷 موریتانی</h3>
+        <p class="country-info">جمهوری اسلامی موریتانی، کشوری در غرب آفریقا است که از شمال با صحرای غربی، از شرق با مالی، از جنوب با سنگال و از غرب با اقیانوس اطلس همسایه است. این کشور با مساحتی حدود ۱,۰۳۰,۷۰۰ کیلومتر مربع، به دلیل صحرای بزرگ آفریقا، معادن آهن و فرهنگ عربی-آفریقایی در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- موریس -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/mu.png" alt="پرچم موریس"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇲🇺 موریس</h3>
+        <p class="country-info">جمهوری موریس، کشوری جزیره‌ای در اقیانوس هند و در شرق ماداگاسکار است که از شمال با سیشل و از شرق با اقیانوس هند همسایه است. این کشور با مساحتی حدود ۲,۰۴۰ کیلومتر مربع، به دلیل سواحل سفید، تنوع فرهنگی و صنعت گردشگری در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- موزامبیک -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/mz.png" alt="پرچم موزامبیک"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇲🇿 موزامبیک</h3>
+        <p class="country-info">جمهوری موزامبیک، کشوری در جنوب شرقی آفریقا است که از شمال با تانزانیا، از غرب با مالاوی، زامبیا و زیمبابوه، از جنوب با آفریقای جنوبی و اسواتینی و از شرق با اقیانوس هند همسایه است. این کشور با مساحتی حدود ۸۰۱,۵۹۰ کیلومتر مربع، به دلیل سواحل طولانی، ذخایر گاز طبیعی و حیات وحش غنی در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- میانمار -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/mm.png" alt="پرچم میانمار"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇲🇲 میانمار</h3>
+        <p class="country-info">جمهوری اتحادیه میانمار (برمه سابق)، کشوری در جنوب شرقی آسیا است که از شمال با چین، از شرق با لائوس و تایلند، از غرب با بنگلادش و هند و از جنوب با خلیج بنگال و دریای آندامان همسایه است. این کشور با مساحتی حدود ۶۷۶,۵۷۸ کیلومتر مربع، به دلیل معابد باستانی (باگان)، تنوع قومی و تاریخ پیچیده در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- نامیبیا -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/na.png" alt="پرچم نامیبیا"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇳🇦 نامیبیا</h3>
+        <p class="country-info">جمهوری نامیبیا، کشوری در جنوب غربی آفریقا است که از شمال با آنگولا و زامبیا، از شرق با بوتسوانا، از جنوب با آفریقای جنوبی و از غرب با اقیانوس اطلس همسایه است. این کشور با مساحتی حدود ۸۲۵,۶۱۵ کیلومتر مربع، به دلیل بیابان نامیب، حیات وحش غنی و معادن الماس در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- نپال -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/np.png" alt="پرچم نپال"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇳🇵 نپال</h3>
+        <p class="country-info">جمهوری فدرال دموکراتیک نپال، کشوری در جنوب آسیا و در هیمالیا است که از شمال با چین (تبت)، از شرق، جنوب و غرب با هند همسایه است. این کشور با مساحتی حدود ۱۴۷,۱۸۱ کیلومتر مربع، به دلیل کوه اورست (بلندترین قله جهان)، معابد بودایی و هندو و فرهنگ غنی خود در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- نروژ -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/no.png" alt="پرچم نروژ"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇳🇴 نروژ</h3>
+        <p class="country-info">پادشاهی نروژ، کشوری در شمال اروپا (اسکاندیناوی) است که از شرق با سوئد، از شمال شرق با فنلاند و روسیه و از غرب با دریای شمال و اقیانوس اطلس همسایه است. این کشور با مساحتی حدود ۳۲۳,۸۰۲ کیلومتر مربع، به دلیل آبدره‌های زیبا، شفق شمالی، وایکینگ‌ها و بالاترین شاخص توسعه انسانی در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- نیجریه -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/ng.png" alt="پرچم نیجریه"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇳🇬 نیجریه</h3>
+        <p class="country-info">جمهوری فدرال نیجریه، کشوری در غرب آفریقا است که از شمال با نیجر، از شرق با کامرون و چاد، از غرب با بنین و از جنوب با خلیج گینه همسایه است. این کشور با مساحتی حدود ۹۲۳,۷۶۸ کیلومتر مربع، به عنوان پرجمعیت‌ترین کشور آفریقا، صنعت نفت، فیلم‌های نالیوود، موسیقی آفروبیات و تنوع قومی در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- نیجر -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/ne.png" alt="پرچم نیجر"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇳🇪 نیجر</h3>
+        <p class="country-info">جمهوری نیجر، کشوری در غرب آفریقا است که از شمال با الجزایر و لیبی، از شرق با چاد، از جنوب با نیجریه و بنین و از غرب با بورکینافاسو و مالی همسایه است. این کشور با مساحتی حدود ۱,۲۶۷,۰۰۰ کیلومتر مربع، به دلیل صحرای بزرگ آفریقا، معادن اورانیوم و تنوع قومی در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- نیوزیلند -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/nz.png" alt="پرچم نیوزیلند"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇳🇿 نیوزیلند</h3>
+        <p class="country-info">نیوزیلند، کشوری در جنوب غربی اقیانوس آرام است که از شمال و شرق با اقیانوس آرام و از غرب با دریای تاسمان و استرالیا همسایه است. این کشور با مساحتی حدود ۲۶۸,۰۲۱ کیلومتر مربع، به دلیل طبیعت بکر، کوه‌های آلپ جنوبی، فیلم‌های ارباب حلقه‌ها و فرهنگ مائوری در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- ونزوئلا -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/ve.png" alt="پرچم ونزوئلا"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇻🇪 ونزوئلا</h3>
+        <p class="country-info">جمهوری بولیواری ونزوئلا، کشوری در شمال آمریکای جنوبی است که از شمال با دریای کارائیب، از شرق با گویان، از جنوب با برزیل و از غرب با کلمبیا همسایه است. این کشور با مساحتی حدود ۹۱۶,۴۴۵ کیلومتر مربع، به دلیل ذخایر عظیم نفت، آبشار آنجل (بلندترین آبشار جهان) و تنوع زیستی خود در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- ویتنام -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/vn.png" alt="پرچم ویتنام"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇻🇳 ویتنام</h3>
+        <p class="country-info">جمهوری سوسیالیستی ویتنام، کشوری در جنوب شرقی آسیا است که از شمال با چین، از غرب با لائوس و کامبوج و از شرق و جنوب با دریای چین جنوبی و خلیج تونکین همسایه است. این کشور با مساحتی حدود ۳۳۱,۶۹۰ کیلومتر مربع، به دلیل جنگ‌های تاریخی، خلیج هالونگ، غذاهای معروف (فوبا، نان‌های بهاری)، برنج‌کاری و سواحل طولانی در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- یمن -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/ye.png" alt="پرچم یمن"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇾🇪 یمن</h3>
+        <p class="country-info">جمهوری یمن، کشوری در غرب آسیا (خاورمیانه) است که از شمال با عربستان سعودی، از شرق با عمان و از غرب با دریای سرخ و خلیج عدن همسایه است. این کشور با مساحتی حدود ۵۲۷,۹۶۸ کیلومتر مربع، به دلیل تاریخ کهن، معماری منحصر‌به‌فرد و موقعیت استراتژیک خود در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- یونان -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/gr.png" alt="پرچم یونان"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇬🇷 یونان</h3>
+        <p class="country-info">جمهوری یونان، کشوری در جنوب شرقی اروپا است که از شمال با آلبانی، مقدونیه شمالی، بلغارستان و ترکیه و از جنوب و شرق با دریای مدیترانه، دریای اژه و دریای ایونی همسایه است. این کشور با مساحتی حدود ۱۳۱,۹۵۷ کیلومتر مربع، به عنوان مهد تمدن غرب، فلسفه، دموکراسی، المپیک باستان، جزایر زیبا (سانتورینی، میکونوس) و غذاهای مدیترانه‌ای در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- پاکستان -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/pk.png" alt="پرچم پاکستان"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇵🇰 پاکستان</h3>
+        <p class="country-info">جمهوری اسلامی پاکستان، کشوری در جنوب آسیا است که از شمال با چین، از شمال غرب با افغانستان، از غرب با ایران، از شرق با هند و از جنوب با دریای عمان همسایه است. این کشور با مساحتی حدود ۷۹۶,۰۹۵ کیلومتر مربع، به دلیل کوه‌های قراقوروم، تمدن سند، غذاهای ادویه‌دار و صنعت نساجی در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- پاناما -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/pa.png" alt="پرچم پاناما"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇵🇦 پاناما</h3>
+        <p class="country-info">جمهوری پاناما، کشوری در آمریکای مرکزی است که از شمال با دریای کارائیب، از جنوب با اقیانوس آرام، از شرق با کلمبیا و از غرب با کاستاریکا همسایه است. این کشور با مساحتی حدود ۷۵,۴۱۷ کیلومتر مربع، به دلیل کانال پاناما، صنعت مالی و تنوع زیستی در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- پاراگوئه -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/py.png" alt="پرچم پاراگوئه"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇵🇾 پاراگوئه</h3>
+        <p class="country-info">جمهوری پاراگوئه، کشوری در مرکز آمریکای جنوبی است که از شمال با بولیوی و برزیل، از شرق با برزیل، از جنوب با آرژانتین و از غرب با آرژانتین و بولیوی همسایه است. این کشور با مساحتی حدود ۴۰۶,۷۵۲ کیلومتر مربع، به دلیل رودخانه پاراگوئه، کشاورزی و صنعت انرژی در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- پرو -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/pe.png" alt="پرچم پرو"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇵🇪 پرو</h3>
+        <p class="country-info">جمهوری پرو، کشوری در غرب آمریکای جنوبی است که از شمال با اکوادور و کلمبیا، از شرق با برزیل، از جنوب شرق با بولیوی، از جنوب با شیلی و از غرب با اقیانوس آرام همسایه است. این کشور با مساحتی حدود ۱,۲۸۵,۲۱۶ کیلومتر مربع، به دلیل ماچو پیچو، تمدن اینکا، کوه‌های آند و غذای ملی سبیچه در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- پرتغال -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/pt.png" alt="پرچم پرتغال"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇵🇹 پرتغال</h3>
+        <p class="country-info">جمهوری پرتغال، کشوری در جنوب غربی اروپا و شبه‌جزیره ایبری است که از شرق و شمال با اسپانیا و از غرب و جنوب با اقیانوس اطلس همسایه است. این کشور با مساحتی حدود ۹۲,۰۹۰ کیلومتر مربع، به عنوان یکی از قدیمی‌ترین کشورهای اروپا، کاشفان بزرگ دریانوردی، شراب پورت و سواحل زیبای آلگاروه در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- پاپوآ گینه نو -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/pg.png" alt="پرچم پاپوآ گینه نو"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇵🇬 پاپوآ گینه نو</h3>
+        <p class="country-info">کشور مستقل پاپوآ گینه نو، کشوری در اقیانوسیه و در جزیره گینه نو است که از شمال با اقیانوس آرام، از شرق با جزایر سلیمان، از جنوب با دریای مرجان و از غرب با اندونزی همسایه است. این کشور با مساحتی حدود ۴۶۲,۸۴۰ کیلومتر مربع، به دلیل تنوع قومی و زبانی، طبیعت بکر و معادن طلا و مس در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- هلند -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/nl.png" alt="پرچم هلند"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇳🇱 هلند</h3>
+        <p class="country-info">پادشاهی هلند، کشوری در شمال غربی اروپا است که از شرق با آلمان، از جنوب با بلژیک و از شمال و غرب با دریای شمال همسایه است. این کشور با مساحتی حدود ۴۱,۵۴۳ کیلومتر مربع، به دلیل آسیاب‌های بادی، گل‌های لاله، کانال‌های آمستردام، دوچرخه‌سواری، پنیر و هنرمندانی مانند ونگوگ در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- هائیتی -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/ht.png" alt="پرچم هائیتی"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇭🇹 هائیتی</h3>
+        <p class="country-info">جمهوری هائیتی، کشوری در دریای کارائیب و در جزیره هیسپانیولا است که از شمال با اقیانوس اطلس، از شرق با جمهوری دومینیکن و از جنوب با دریای کارائیب همسایه است. این کشور با مساحتی حدود ۲۷,۷۵۰ کیلومتر مربع، به عنوان اولین کشور مستقل سیاه‌پوستان در جهان، تاریخ انقلابی و فرهنگ وودون در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- هند -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/in.png" alt="پرچم هند"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇮🇳 هند</h3>
+        <p class="country-info">جمهوری هند، کشوری در جنوب آسیا است که از شمال با چین، نپال، بوتان، از شمال غرب با پاکستان، از شرق با بنگلادش و میانمار و از جنوب با اقیانوس هند همسایه است. این کشور با مساحتی حدود ۳,۲۸۷,۲۶۳ کیلومتر مربع، به عنوان دومین کشور پرجمعیت جهان، تاج محل، تنوع فرهنگی و زبانی، بالیوود و غذاهای ادویه‌دار در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- هندوراس -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/hn.png" alt="پرچم هندوراس"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇭🇳 هندوراس</h3>
+        <p class="country-info">جمهوری هندوراس، کشوری در آمریکای مرکزی است که از شمال با دریای کارائیب، از شرق با نیکاراگوئه، از جنوب با السالوادور و اقیانوس آرام و از غرب با گواتمالا همسایه است. این کشور با مساحتی حدود ۱۱۲,۴۹۲ کیلومتر مربع، به دلیل جنگل‌های بارانی، سواحل کارائیب و تمدن مایا در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- هنگ‌کنگ -->
+<!-- هنگ‌کنگ یک منطقه ویژه اداری چین است -->
+
+<!-- اتیوپی -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/et.png" alt="پرچم اتیوپی"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇪🇹 اتیوپی</h3>
+        <p class="country-info">جمهوری فدرال دموکراتیک اتیوپی، کشوری در شرق آفریقا (شاخ آفریقا) است که از شمال با اریتره، از شرق با جیبوتی و سومالی، از جنوب با کنیا و از غرب با سودان و سودان جنوبی همسایه است. این کشور با مساحتی حدود ۱,۱۰۴,۳۰۰ کیلومتر مربع، به عنوان یکی از قدیمی‌ترین تمدن‌های جهان، منشأ قهوه و تنوع فرهنگی در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- اریتره -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/er.png" alt="پرچم اریتره"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇪🇷 اریتره</h3>
+        <p class="country-info">دولت اریتره، کشوری در شرق آفریقا (شاخ آفریقا) است که از شمال با سودان، از شرق با دریای سرخ و جیبوتی و از جنوب با اتیوپی همسایه است. این کشور با مساحتی حدود ۱۱۷,۶۰۰ کیلومتر مربع، به دلیل سواحل دریای سرخ، تاریخ استعمار و تنوع قومی در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- جیبوتی -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/dj.png" alt="پرچم جیبوتی"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇩🇯 جیبوتی</h3>
+        <p class="country-info">جمهوری جیبوتی، کشوری در شرق آفریقا (شاخ آفریقا) است که از شمال با اریتره، از غرب با اتیوپی، از جنوب با سومالی و از شرق با دریای سرخ و خلیج عدن همسایه است. این کشور با مساحتی حدود ۲۳,۲۰۰ کیلومتر مربع، به دلیل موقعیت استراتژیک، بندرگاه مهم و پایگاه‌های نظامی خارجی در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- سائوتومه و پرینسیپ -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/st.png" alt="پرچم سائوتومه و پرینسیپ"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇸🇹 سائوتومه و پرینسیپ</h3>
+        <p class="country-info">جمهوری دموکراتیک سائوتومه و پرینسیپ، کشوری جزیره‌ای در خلیج گینه و در سواحل غرب آفریقا است که از شمال با نیجریه و از جنوب با گابن همسایه است. این کشور با مساحتی حدود ۹۶۴ کیلومتر مربع، به دلیل کاکائو، سواحل زیبا و تنوع زیستی در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- السن‌سالوادور -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/sv.png" alt="پرچم السالوادور"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇸🇻 السالوادور</h3>
+        <p class="country-info">جمهوری السالوادور، کشوری در آمریکای مرکزی است که از شمال با گواتمالا، از شرق با هندوراس و از غرب با اقیانوس آرام همسایه است. این کشور با مساحتی حدود ۲۱,۰۴۱ کیلومتر مربع، به دلیل سواحل اقیانوس آرام، آتشفشان‌ها و فرهنگ مایا در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- نیکاراگوئه -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/ni.png" alt="پرچم نیکاراگوئه"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇳🇮 نیکاراگوئه</h3>
+        <p class="country-info">جمهوری نیکاراگوئه، کشوری در آمریکای مرکزی است که از شمال با هندوراس، از جنوب با کاستاریکا، از شرق با دریای کارائیب و از غرب با اقیانوس آرام همسایه است. این کشور با مساحتی حدود ۱۳۰,۳۷۳ کیلومتر مربع، به دلیل دریاچه نیکاراگوئه، آتشفشان‌ها و تنوع زیستی در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- بلیز -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/bz.png" alt="پرچم بلیز"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇧🇿 بلیز</h3>
+        <p class="country-info">بلیز، کشوری در آمریکای مرکزی است که از شمال با مکزیک، از شرق با دریای کارائیب و از جنوب با گواتمالا همسایه است. این کشور با مساحتی حدود ۲۲,۹۶۶ کیلومتر مربع، به دلیل صخره بزرگ مرجانی، جنگل‌های بارانی و تنوع فرهنگی در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- باهاما -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/bs.png" alt="پرچم باهاما"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇧🇸 باهاما</h3>
+        <p class="country-info">کشور مشترک‌المنافع باهاما، کشوری جزیره‌ای در اقیانوس اطلس و در دریای کارائیب است که از شمال با آمریکا و از جنوب با کوبا همسایه است. این کشور با مساحتی حدود ۱۳,۸۸۰ کیلومتر مربع، به دلیل سواحل سفید، آب‌های شفاف و صنعت گردشگری در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- گرینادا -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/gd.png" alt="پرچم گرینادا"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇬🇩 گرینادا</h3>
+        <p class="country-info">گرینادا، کشوری جزیره‌ای در دریای کارائیب است که از شمال با سنت وینسنت و گرنادین‌ها و از جنوب با ترینیداد و توباگو همسایه است. این کشور با مساحتی حدود ۳۴۴ کیلومتر مربع، به دلیل جوز هندی، سواحل زیبا و صنعت گردشگری در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- سنت لوسیا -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/lc.png" alt="پرچم سنت لوسیا"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇱🇨 سنت لوسیا</h3>
+        <p class="country-info">سنت لوسیا، کشوری جزیره‌ای در دریای کارائیب است که از شمال با مارتینیک و از جنوب با سنت وینسنت و گرنادین‌ها همسایه است. این کشور با مساحتی حدود ۶۱۷ کیلومتر مربع، به دلیل کوه‌های آتشفشانی، سواحل زیبا و صنعت گردشگری در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- سنت وینسنت و گرنادین‌ها -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/vc.png" alt="پرچم سنت وینسنت و گرنادین‌ها"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇻🇨 سنت وینسنت و گرنادین‌ها</h3>
+        <p class="country-info">سنت وینسنت و گرنادین‌ها، کشوری جزیره‌ای در دریای کارائیب است که از شمال با سنت لوسیا و از جنوب با گرینادا همسایه است. این کشور با مساحتی حدود ۳۸۹ کیلومتر مربع، به دلیل سواحل بکر، قایق‌رانی و صنعت گردشگری در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- سنت کیتس و نویس -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/kn.png" alt="پرچم سنت کیتس و نویس"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇰🇳 سنت کیتس و نویس</h3>
+        <p class="country-info">سنت کیتس و نویس، کشوری جزیره‌ای در دریای کارائیب است که از شمال با آنگویلا و از جنوب با آنتیگوا و باربودا همسایه است. این کشور با مساحتی حدود ۲۶۱ کیلومتر مربع، به عنوان کوچک‌ترین کشور قاره آمریکا، سواحل زیبا و صنعت گردشگری در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- سورینام -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/sr.png" alt="پرچم سورینام"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇸🇷 سورینام</h3>
+        <p class="country-info">جمهوری سورینام، کشوری در شمال شرقی آمریکای جنوبی است که از شمال با اقیانوس اطلس، از شرق با گویان فرانسه، از جنوب با برزیل و از غرب با گویان همسایه است. این کشور با مساحتی حدود ۱۶۳,۸۲۰ کیلومتر مربع، به دلیل جنگل‌های آمازون، تنوع فرهنگی و معادن طلا در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- گویان فرانسه -->
+<!-- گویان فرانسه یک قلمرو فرادریایی فرانسه است -->
+
+<!-- مالدیو -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/mv.png" alt="پرچم مالدیو"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇲🇻 مالدیو</h3>
+        <p class="country-info">جمهوری مالدیو، کشوری جزیره‌ای در اقیانوس هند و در جنوب غربی سریلانکا است که از شمال با اقیانوس هند و از جنوب با اقیانوس هند همسایه است. این کشور با مساحتی حدود ۲۹۸ کیلومتر مربع، به دلیل سواحل سفید، آب‌های شفاف و صنعت گردشگری لوکس در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- سریلانکا -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/lk.png" alt="پرچم سریلانکا"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇱🇰 سریلانکا</h3>
+        <p class="country-info">جمهوری سوسیالیستی دموکراتیک سریلانکا، کشوری جزیره‌ای در اقیانوس هند و در جنوب هند است که از شمال با خلیج بنگال، از شرق با اقیانوس هند و از غرب با دریای عربستان همسایه است. این کشور با مساحتی حدود ۶۵,۶۱۰ کیلومتر مربع، به دلیل چای سیلان، سواحل زیبا و تاریخ کهن در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- تایوان -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/tw.png" alt="پرچم تایوان"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇹🇼 تایوان</h3>
+        <p class="country-info">تایوان، کشوری در شرق آسیا است که از شمال با چین (از طریق تنگه تایوان)، از شرق با اقیانوس آرام و از جنوب با فیلیپین همسایه است. این کشور با مساحتی حدود ۳۶,۱۹۷ کیلومتر مربع، به دلیل تکنولوژی پیشرفته (TSMC)، طبیعت زیبا و فرهنگ غنی چینی در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- بوتان قبلا داده شد -->
+
+<!-- بنگلادش -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/bd.png" alt="پرچم بنگلادش"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇧🇩 بنگلادش</h3>
+        <p class="country-info">جمهوری خلق بنگلادش، کشوری در جنوب آسیا است که از شمال با هند، از شرق با هند و میانمار، از جنوب با خلیج بنگال و از غرب با هند همسایه است. این کشور با مساحتی حدود ۱۴۸,۴۶۰ کیلومتر مربع، به دلیل جمعیت زیاد، صنعت پوشاک، دلتای گنگ و رودخانه‌های فراوان در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- کامبوج قبلا داده شد -->
+
+<!-- کوزوو -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/xk.png" alt="پرچم کوزوو"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇽🇰 کوزوو</h3>
+        <p class="country-info">جمهوری کوزوو، کشوری در جنوب شرقی اروپا و در شبه‌جزیره بالکان است که از شمال با صربستان، از شرق با صربستان، از جنوب با مقدونیه شمالی و از غرب با آلبانی و مونته‌نگرو همسایه است. این کشور با مساحتی حدود ۱۰,۹۰۸ کیلومتر مربع، به عنوان یکی از جدیدترین کشورهای جهان، تاریخ پیچیده و فرهنگ غنی در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- مقدونیه شمالی -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/mk.png" alt="پرچم مقدونیه شمالی"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇲🇰 مقدونیه شمالی</h3>
+        <p class="country-info">جمهوری مقدونیه شمالی، کشوری در جنوب شرقی اروپا و در شبه‌جزیره بالکان است که از شمال با صربستان و کوزوو، از شرق با بلغارستان، از جنوب با یونان و از غرب با آلبانی همسایه است. این کشور با مساحتی حدود ۲۵,۷۱۳ کیلومتر مربع، به دلیل دریاچه اوهرید، کوه‌های بالکان و تاریخ کهن در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- مالاوی -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/mw.png" alt="پرچم مالاوی"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇲🇼 مالاوی</h3>
+        <p class="country-info">جمهوری مالاوی، کشوری در جنوب شرقی آفریقا است که از شمال با تانزانیا، از شرق با دریاچه مالاوی و موزامبیک و از غرب با زامبیا همسایه است. این کشور با مساحتی حدود ۱۱۸,۴۸۴ کیلومتر مربع، به دلیل دریاچه مالاوی، چای و تنوع زیستی در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- زامبیا -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/zm.png" alt="پرچم زامبیا"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇿🇲 زامبیا</h3>
+        <p class="country-info">جمهوری زامبیا، کشوری در جنوب مرکزی آفریقا است که از شمال با جمهوری دموکراتیک کنگو و تانزانیا، از شرق با مالاوی و موزامبیک، از جنوب با زیمبابوه و بوتسوانا و از غرب با آنگولا و نامیبیا همسایه است. این کشور با مساحتی حدود ۷۵۲,۶۱۲ کیلومتر مربع، به دلیل آبشار ویکتوریا، معادن مس و حیات وحش غنی در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- زیمبابوه -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/zw.png" alt="پرچم زیمبابوه"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇿🇼 زیمبابوه</h3>
+        <p class="country-info">جمهوری زیمبابوه، کشوری در جنوب آفریقا است که از شمال با زامبیا، از شرق با موزامبیک، از جنوب با آفریقای جنوبی و از غرب با بوتسوانا همسایه است. این کشور با مساحتی حدود ۳۹۰,۷۵۷ کیلومتر مربع، به دلیل آبشار ویکتوریا، ویرانه‌های بزرگ زیمبابوه و تنوع زیستی در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- اوگاندا -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/ug.png" alt="پرچم اوگاندا"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇺🇬 اوگاندا</h3>
+        <p class="country-info">جمهوری اوگاندا، کشوری در شرق آفریقا است که از شمال با سودان جنوبی، از شرق با کنیا، از جنوب با تانزانیا و رواندا و از غرب با جمهوری دموکراتیک کنگو همسایه است. این کشور با مساحتی حدود ۲۴۱,۵۵۱ کیلومتر مربع، به دلیل دریاچه ویکتوریا، گوریل‌های کوهستانی و تنوع زیستی در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- اتیوپی قبلا داده شد -->
+
+<!-- اریتره قبلا داده شد -->
+
+<!-- جیبوتی قبلا داده شد -->
+
+<!-- سومالی قبلا داده شد -->
+
+<!-- کومور -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/km.png" alt="پرچم کومور"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇰🇲 کومور</h3>
+        <p class="country-info">اتحاد کومور، کشوری جزیره‌ای در اقیانوس هند و در شمال کانال موزامبیک است که از شمال با سیشل، از شرق با ماداگاسکار و از جنوب با موزامبیک همسایه است. این کشور با مساحتی حدود ۲,۲۳۵ کیلومتر مربع، به دلیل وانیل، میخک و سواحل زیبا در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- موریس قبلا داده شد -->
+
+<!-- سیشل قبلا داده شد -->
+
+<!-- ماداگاسکار قبلا داده شد -->
+
+<!-- سوازیلند (اسواتینی) قبلا داده شد -->
+
+<!-- لسوتو -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/ls.png" alt="پرچم لسوتو"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇱🇸 لسوتو</h3>
+        <p class="country-info">پادشاهی لسوتو، کشوری در جنوب آفریقا است که کاملاً توسط آفریقای جنوبی احاطه شده است. این کشور با مساحتی حدود ۳۰,۳۵۵ کیلومتر مربع، به دلیل کوه‌های بالا، صنعت پشم و فرهنگ غنی در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- بوتسوانا قبلا داده شد -->
+
+<!-- نامیبیا قبلا داده شد -->
+
+<!-- آنگولا قبلا داده شد -->
+
+<!-- کنگو (جمهوری) قبلا داده شد -->
+
+<!-- جمهوری دموکراتیک کنگو قبلا داده شد -->
+
+<!-- گابن قبلا داده شد -->
+
+<!-- گینه استوایی قبلا داده شد -->
+
+<!-- سائوتومه و پرینسیپ قبلا داده شد -->
+
+<!-- کیپ ورد -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/cv.png" alt="پرچم کیپ ورد"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇨🇻 کیپ ورد</h3>
+        <p class="country-info">جمهوری کیپ ورد، کشوری جزیره‌ای در اقیانوس اطلس و در سواحل غرب آفریقا است که از شمال با اقیانوس اطلس و از جنوب با اقیانوس اطلس همسایه است. این کشور با مساحتی حدود ۴,۰۳۳ کیلومتر مربع، به دلیل سواحل زیبا، موسیقی مورنا و صنعت گردشگری در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- موریتانی قبلا داده شد -->
+
+<!-- مالی -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/ml.png" alt="پرچم مالی"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇲🇱 مالی</h3>
+        <p class="country-info">جمهوری مالی، کشوری در غرب آفریقا است که از شمال با الجزایر، از شرق با نیجر، از جنوب با بورکینافاسو و ساحل عاج، از جنوب غرب با گینه و از غرب با سنگال و موریتانی همسایه است. این کشور با مساحتی حدود ۱,۲۴۰,۱۹۲ کیلومتر مربع، به دلیل شهر باستانی تیمبوکتو، موسیقی و تاریخ غنی در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- نیجر قبلا داده شد -->
+
+<!-- نیجریه قبلا داده شد -->
+
+<!-- کامرون قبلا داده شد -->
+
+<!-- چاد قبلا داده شد -->
+
+<!-- جمهوری آفریقای مرکزی قبلا داده شد -->
+
+<!-- سودان قبلا داده شد -->
+
+<!-- سودان جنوبی قبلا داده شد -->
+ <!-- جمهوری کنگو (جمهوری دموکراتیک کنگو قبلا داده شد) -->
+<!-- گابن قبلا داده شد -->
+<!-- گینه استوایی قبلا داده شد -->
+<!-- سائوتومه و پرینسیپ قبلا داده شد -->
+<!-- کیپ ورد قبلا داده شد -->
+<!-- مالی قبلا داده شد -->
+
+<!-- ===== کشورهای جدید اضافه شده ===== -->
+
+<!-- موناکو قبلا داده شد -->
+<!-- لیختن‌اشتاین قبلا داده شد -->
+<!-- سان مارینو -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/sm.png" alt="پرچم سان مارینو"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇸🇲 سان مارینو</h3>
+        <p class="country-info">جمهوری سان مارینو، کشوری کوچک در جنوب اروپا و محصور در خشکی است که کاملاً توسط ایتالیا احاطه شده است. این کشور با مساحتی حدود ۶۱ کیلومتر مربع، به عنوان یکی از قدیمی‌ترین جمهوری‌های جهان، کوه تیتانو و معماری قرون وسطایی شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- واتیکان -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/va.png" alt="پرچم واتیکان"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇻🇦 واتیکان</h3>
+        <p class="country-info">ایالت واتیکان، کوچک‌ترین کشور جهان است که در قلب شهر رم و کاملاً توسط ایتالیا احاطه شده است. این کشور با مساحتی حدود ۰.۴۴ کیلومتر مربع، به عنوان مرکز کلیسای کاتولیک، کلیسای سنت پیتر و موزه‌های واتیکان در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- جیبوتی قبلا داده شد -->
+<!-- سومالی قبلا داده شد -->
+
+<!-- سودان جنوبی قبلا داده شد -->
+
+<!-- اریتره قبلا داده شد -->
+<!-- اتیوپی قبلا داده شد -->
+
+<!-- کنیا قبلا داده شد -->
+<!-- اوگاندا قبلا داده شد -->
+<!-- رواندا قبلا داده شد -->
+<!-- بروندی قبلا داده شد -->
+<!-- تانزانیا قبلا داده شد -->
+
+<!-- مالاوی قبلا داده شد -->
+<!-- زامبیا قبلا داده شد -->
+<!-- زیمبابوه قبلا داده شد -->
+<!-- موزامبیک قبلا داده شد -->
+
+<!-- آنگولا قبلا داده شد -->
+<!-- نامیبیا قبلا داده شد -->
+<!-- بوتسوانا قبلا داده شد -->
+<!-- اسواتینی قبلا داده شد -->
+<!-- لسوتو قبلا داده شد -->
+
+<!-- موریس قبلا داده شد -->
+<!-- سیشل قبلا داده شد -->
+<!-- کومور قبلا داده شد -->
+<!-- ماداگاسکار قبلا داده شد -->
+
+<!-- پالائو -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/pw.png" alt="پرچم پالائو"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇵🇼 پالائو</h3>
+        <p class="country-info">جمهوری پالائو، کشوری جزیره‌ای در اقیانوس آرام است که از شمال با اقیانوس آرام و از جنوب با اندونزی همسایه است. این کشور با مساحتی حدود ۴۵۹ کیلومتر مربع، به دلیل سواحل بکر، غواصی و تنوع زیستی دریایی در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- نائورو -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/nr.png" alt="پرچم نائورو"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇳🇷 نائورو</h3>
+        <p class="country-info">جمهوری نائورو، کوچک‌ترین کشور جزیره‌ای جهان در اقیانوس آرام است که از شمال با اقیانوس آرام و از جنوب با اقیانوس آرام همسایه است. این کشور با مساحتی حدود ۲۱ کیلومتر مربع، به دلیل فسفات و جمعیت کم خود در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- کیریباتی -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/ki.png" alt="پرچم کیریباتی"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇰🇮 کیریباتی</h3>
+        <p class="country-info">جمهوری کیریباتی، کشوری جزیره‌ای در اقیانوس آرام است که از شمال با اقیانوس آرام، از شرق با اقیانوس آرام و از غرب با نائورو همسایه است. این کشور با مساحتی حدود ۸۱۱ کیلومتر مربع، به عنوان یکی از اولین کشورهایی که سال نو را جشن می‌گیرد و در معرض خطر بالا آمدن آب دریاها است شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- تووالو -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/tv.png" alt="پرچم تووالو"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇹🇻 تووالو</h3>
+        <p class="country-info">تووالو، کشوری جزیره‌ای در اقیانوس آرام است که از شمال با اقیانوس آرام و از جنوب با اقیانوس آرام همسایه است. این کشور با مساحتی حدود ۲۶ کیلومتر مربع، به دلیل جمعیت کم و در معرض خطر بودن در برابر تغییرات اقلیمی شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- ساموآ -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/ws.png" alt="پرچم ساموآ"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇼🇸 ساموآ</h3>
+        <p class="country-info">کشور مستقل ساموآ، کشوری جزیره‌ای در اقیانوس آرام است که از شمال با اقیانوس آرام و از جنوب با اقیانوس آرام همسایه است. این کشور با مساحتی حدود ۲,۸۴۲ کیلومتر مربع، به دلیل فرهنگ پلینزی، سواحل زیبا و طبیعت بکر شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- تونگا -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/to.png" alt="پرچم تونگا"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇹🇴 تونگا</h3>
+        <p class="country-info">پادشاهی تونگا، کشوری جزیره‌ای در اقیانوس آرام است که از شمال با اقیانوس آرام و از جنوب با اقیانوس آرام همسایه است. این کشور با مساحتی حدود ۷۴۷ کیلومتر مربع، به عنوان تنها کشور پادشاهی در اقیانوسیه و فرهنگ غنی پلینزی شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- جزایر سلیمان -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/sb.png" alt="پرچم جزایر سلیمان"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇸🇧 جزایر سلیمان</h3>
+        <p class="country-info">جزایر سلیمان، کشوری در اقیانوسیه است که از شمال با اقیانوس آرام، از شرق با وانواتو و از جنوب با دریای مرجان همسایه است. این کشور با مساحتی حدود ۲۸,۸۹۶ کیلومتر مربع، به دلیل جنگل‌های بارانی، غواصی و تنوع فرهنگی شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- وانواتو -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/vu.png" alt="پرچم وانواتو"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇻🇺 وانواتو</h3>
+        <p class="country-info">جمهوری وانواتو، کشوری در اقیانوسیه است که از شمال با جزایر سلیمان، از شرق با فیجی و از جنوب با کالدونیای جدید همسایه است. این کشور با مساحتی حدود ۱۲,۱۸۹ کیلومتر مربع، به دلیل آتشفشان‌های فعال، سواحل زیبا و فرهنگ بومی شناخته می‌شود.</p>
+    </div>
+</div>
+
+<!-- فیجی قبلا داده شد -->
+
+<!-- کالدونیای جدید -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/nc.png" alt="پرچم کالدونیای جدید"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇳🇨 کالدونیای جدید</h3>
+        <p class="country-info">کالدونیای جدید، یک قلمرو ویژه فرانسه در اقیانوسیه است که از شمال با وانواتو، از شرق با اقیانوس آرام و از غرب با استرالیا همسایه است. این کشور با مساحتی حدود ۱۸,۵۷۵ کیلومتر مربع، به دلیل تالاب‌های زیبا، نیکل و تنوع زیستی شناخته می‌شود.</p>
+    </div>
+</div>
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/us.png" alt="پرچم ایالات متحده آمریکا"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇺🇸 ایالات متحده آمریکا</h3>
+        <p class="country-info">ایالات متحده آمریکا، کشوری در آمریکای شمالی است که از شمال با کانادا، از جنوب با مکزیک، از شرق با اقیانوس اطلس و از غرب با اقیانوس آرام همسایه است. این کشور با مساحتی حدود ۹,۸۳۴,۰۰۰ کیلومتر مربع، به عنوان بزرگترین اقتصاد جهان، پیشرو در فناوری، علم و فرهنگ، و دارای جاذبه‌های طبیعی شگفت‌انگیزی مانند گرند کنیون، پارک‌های ملی یلوستون و یوسمیتی، و کلانشهرهای معروفی مانند نیویورک، لس‌آنجلس، شیکاگو و واشنگتن دی‌سی در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+<!-- مکزیک -->
+<div class="country-bio">
+    <div class="country-flags"><img class="flag" src="https://flagcdn.com/w320/mx.png" alt="پرچم مکزیک"></div>
+    <div class="country-info-box">
+        <h3 class="product-title">🇲🇽 مکزیک</h3>
+        <p class="country-info">ایالات متحده مکزیک، کشوری در جنوب آمریکای شمالی است که از شمال با ایالات متحده آمریکا، از جنوب با گواتمالا و بلیز، از شرق با خلیج مکزیک و دریای کارائیب و از غرب با اقیانوس آرام همسایه است. این کشور با مساحتی حدود ۱,۹۶۴,۳۷۵ کیلومتر مربع، به عنوان مهد تمدن‌های باستانی آزتک و مایا، دارای آثار تاریخی شگفت‌انگیزی مانند چیچن ایتزا و تئوتیهواکان، غذاهای پرطرفدار جهانی (تاکو، گواکاموله)، نوشیدنی ملی تکیلا، سواحل زیبای کانکون و جشن معروف روز مردگان (Día de los Muertos) در جهان شناخته می‌شود.</p>
+    </div>
+</div>
+        </section>
+                <footer class="main-footer ">
+    <div class="footer-content">
+        <p class="footer-copy">
+            © ۲۰۲۶ <strong>کشورنما</strong> | تمامی حقوق محفوظ است.
+        </p>
+<p>طراحی و توسعه:<strong class="h1">محمد پارسا حاجب</strong></p>
+        <div class="footer-icons">
+            <a href="./debugging.html"><i class="ri-chat-delete-fill"></i>گزارش خطا</a>
+        </div>
+    </div>
+</footer>
+        </body>
+        <script src="../js/script.js"></script>

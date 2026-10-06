@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>کره زمین تعاملی | کشورنما</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/globe.css">
+    <link rel="stylesheet" href="../css/respansiv.css">
+    <link rel="stylesheet" href="../assets/Remixicon/remixicon.css" />
+    <link rel="shortcut icon" href="../assets/images/united.ico.png" type="image/x-icon">
+</head>
+<body>
+    <header class="main-header">
+        <div class="logo">
+            <a href="/"><h1><i class="ri-earth-fill"></i>کشورنما</h1></a>
+        </div>
+    </header>
+
+    <section class="globe-section">
+        <div class="globe-back">
+            <a href="/"><i class="ri-arrow-right-line"></i> بازگشت</a>
+        </div>
+        <canvas id="globeCanvas"></canvas>
+        <div class="globe-tooltip" id="globeTooltip"></div>
+        <div class="globe-hint">
+            <i class="ri-drag-move-2-line"></i>
+            برای چرخش بکشید
+            <i class="ri-cursor-line"></i>
+            برای انتخاب کلیک کنید
+        </div>
+    </section>
+
+    <!-- کتابخانه‌ها از CDN -->
+<script src="https://cdn.jsdelivr.net/npm/earcut@2.2.4/dist/earcut.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/topojson-client@3.1.0/dist/topojson-client.min.js"></script>
+    <script src="../js/globe.js"></script>
+</body>
+</html>

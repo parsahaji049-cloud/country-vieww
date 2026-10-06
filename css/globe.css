@@ -1,0 +1,162 @@
+     /* ===== استایل کره زمین ===== */
+        .globe-section {
+            width: 100%;
+            height: calc(100vh - 120px);
+            position: relative;
+            background: radial-gradient(ellipse at center, #0a0a2a 0%, #000 100%);
+            overflow: hidden;
+            border-radius: 20px;
+            margin: 20px auto;
+            max-width: 1200px;
+        }
+
+        #globeCanvas {
+            width: 100%;
+            height: 100%;
+            display: block;
+            cursor: grab;
+        }
+
+        #globeCanvas:active {
+            cursor: grabbing;
+        }
+
+        /* ===== تولتیپ ===== */
+        .globe-tooltip {
+            position: absolute;
+            background: rgba(26, 35, 126, 0.95);
+            color: #fff;
+            padding: 10px 18px;
+            border-radius: 10px;
+            font-size: 14px;
+            font-weight: 500;
+            pointer-events: none;
+            opacity: 0;
+            transition: opacity 0.2s;
+            z-index: 100;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+            backdrop-filter: blur(5px);
+        }
+
+        .globe-tooltip.active {
+            opacity: 1;
+        }
+
+        /* ===== دکمه بازگشت ===== */
+        .globe-back {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            z-index: 10;
+        }
+
+        .globe-back a {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            background: rgba(255, 255, 255, 0.1);
+            color: #fff;
+            padding: 8px 18px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-size: 14px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            transition: all 0.3s;
+        }
+
+        .globe-back a:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        /* ===== راهنما ===== */
+        .globe-hint {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: rgba(255, 255, 255, 0.6);
+            font-size: 13px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            z-index: 10;
+            background: rgba(0, 0, 0, 0.3);
+            padding: 8px 20px;
+            border-radius: 30px;
+            backdrop-filter: blur(5px);
+        }
+
+        .globe-hint i {
+            font-size: 16px;
+        }
+
+        /* ===== ریسپانسیو ===== */
+        @media (max-width: 768px) {
+            .globe-section {
+                height: calc(100vh - 100px);
+                margin: 10px auto;
+                border-radius: 14px;
+            }
+
+            .globe-back {
+                top: 10px;
+                right: 10px;
+            }
+
+            .globe-back a {
+                padding: 6px 14px;
+                font-size: 12px;
+            }
+
+            .globe-hint {
+                font-size: 11px;
+                padding: 6px 14px;
+                bottom: 10px;
+            }
+        }
+.globe-tooltip {
+    position: absolute;
+    background: rgba(26, 35, 126, 0.95);
+    color: #fff;
+    padding: 8px 14px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.15s;
+    z-index: 100;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(5px);
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.globe-tooltip.active {
+    opacity: 1;
+}
+.globe-tooltip {
+    position: absolute;
+    background: rgba(26, 35, 126, 0.95);
+    color: #fff;
+    padding: 8px 14px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.15s;
+    z-index: 100;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(5px);
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    transform: translate(-50%, -100%);
+}
+
+.globe-tooltip.active {
+    opacity: 1;
+}

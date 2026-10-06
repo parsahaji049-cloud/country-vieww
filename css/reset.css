@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: vazirmatn;
+}
+body {
+    font-family: vazirmatn,sans-serif;
+    background:cadetblue;
+    margin: 0;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+ul {
+  list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+input {
+    font-family: vazirmat;
+}
+@font-face {
+    font-family: vazirmatn;
+    src: url(../assets/fonts/Vazirmatn-Regular.woff2);
+}

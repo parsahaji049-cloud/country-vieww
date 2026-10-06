@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>جزئیات کشور</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../assets/Remixicon/remixicon.css" />
+    <link rel="shortcut icon" href="../assets/images/united.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/respansiv.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="logo">
+            <a href="/"><h1><i class="ri-earth-fill"></i>کشورنما</h1></a>
+        </div>
+    </header>
+
+    <section class="country-detail" id="countryDetail">
+        <div class="detail-container" id="detailContainer">
+            <!-- اطلاعات با جاوااسکریپت پر میشه -->
+            <div id="loadingSpinner" class="loading-spinner">
+                <div class="spinner"></div>
+                <p>در حال بارگذاری اطلاعات...</p>
+            </div>
+            <div id="countryContent" style="display: none;"></div>
+        </div>
+    </section>
+    <footer class="main-footer ">
+    <div class="footer-content">
+        <p class="footer-copy">
+            © ۲۰۲۶ <strong>کشورنما</strong> | تمامی حقوق محفوظ است.
+        </p>
+        <div class="footer-icons">
+            <a href="./debugging.html"><i class="ri-chat-delete-fill"></i>گزارش خطا</a>
+        </div>
+    </div>
+</footer>
+    <script src="../js/country.js"></script>
+    <script src="../js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سفر مجازی | کشورنما</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../assets/Remixicon/remixicon.css" />
+    <link rel="shortcut icon" href="../assets/images/united.ico.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/virtual-tour.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="logo">
+            <a href="/"><h1><i class="ri-earth-fill"></i>کشورنما</h1></a>
+        </div>
+    </header>
+
+    <section class="virtual-tour-section">
+        <!-- هدر سفر مجازی -->
+        <div class="tour-header">
+            <h1>✈️ سفر مجازی به کشورها</h1>
+            <p>کشور مورد نظرت رو انتخاب کن و به یه سفر مجازی برو!</p>
+        </div>
+
+        <!-- انتخاب کشور -->
+        <div class="country-selector" id="countrySelector">
+            <div class="search-box">
+                <i class="ri-search-line"></i>
+                <input type="text" id="countrySearch" placeholder="🔍 نام کشور رو جستجو کن..." autocomplete="off">
+            </div>
+            <div class="country-grid" id="countryGrid">
+                <!-- کارت‌های کشور با جاوااسکریپت پر میشه -->
+            </div>
+        </div>
+
+        <!-- صفحه سفر (مخفی) -->
+        <div class="tour-view" id="tourView" style="display: none;">
+            <button class="back-to-list" id="backToList">
+                <i class="ri-arrow-right-line"></i> بازگشت به لیست
+            </button>
+
+            <!-- هدر کشور انتخاب شده -->
+            <div class="tour-country-header" id="tourCountryHeader"></div>
+
+            <!-- تب‌ها -->
+            <div class="tour-tabs">
+                <button class="tour-tab active" data-tab="gallery">
+                    <i class="ri-image-line"></i> گالری
+                </button>
+                <button class="tour-tab" data-tab="attractions">
+                    <i class="ri-map-pin-line"></i> جاذبه‌ها
+                </button>
+                <button class="tour-tab" data-tab="food">
+                    <i class="ri-restaurant-line"></i> غذاها
+                </button>
+                <button class="tour-tab" data-tab="culture">
+                    <i class="ri-book-open-line"></i> فرهنگ
+                </button>
+                <button class="tour-tab" data-tab="map">
+                    <i class="ri-map-2-line"></i> نقشه
+                </button>
+                <button class="tour-tab" data-tab="funfacts">
+                    <i class="ri-lightbulb-line"></i> دانستنی‌ها
+                </button>
+            </div>
+
+            <!-- محتوای تب‌ها -->
+            <div class="tour-content" id="tourContent">
+                <!-- محتوا با جاوااسکریپت پر میشه -->
+            </div>
+        </div>
+    </section>
+
+    <script src="../js/virtual-tour.js"></script>
+</body>
+</html>

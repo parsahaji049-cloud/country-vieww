@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>هواشناسی | کشورنما</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/weather.css">
+    <link rel="stylesheet" href="../assets/Remixicon/remixicon.css" />
+    <link rel="shortcut icon" href="../assets/images/united.ico" type="image/x-icon">
+</head>
+<body>
+    <header class="main-header">
+        <div class="logo">
+            <a href="/"><h1><i class="ri-earth-fill"></i>کشورنما</h1></a>
+        </div>
+    </header>
+
+    <section class="weather-section">
+        <div class="weather-container">
+            <h2 class="weather-title">🌤️آب و هوا</h2>
+            
+            <div class="weather-search">
+                <input type="text" id="cityInput" placeholder="🔍 نام کشور یا شهر را وارد کنید... (مثال: Tehran)">
+                <button id="searchWeatherBtn"><i class="ri-search-line"></i> جستجو</button>
+            </div>
+
+            <div id="weatherResult" class="weather-result">
+                <!-- نتایج اینجا نمایش داده میشه -->
+            </div>
+        </div>
+    </section>
+
+    <script src="../js/weather.js"></script>
+    <script src="../js/country.js"></script>
+</body>
+</html>

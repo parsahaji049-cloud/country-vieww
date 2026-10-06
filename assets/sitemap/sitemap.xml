@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="https://www.xml-sitemaps.com/css/sitemap.css"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <url>
+       <loc>https://country-view.ir/</loc>
+       <lastmod>2026-07-18T14:42:34+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>1.0000</priority>
+  </url>
+  <url>
+       <loc>https://country-view.ir/pages/countrys</loc>
+       <lastmod>2026-07-18T14:42:34+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://country-view.ir/pages/debugging</loc>
+       <lastmod>2026-07-18T14:42:34+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://country-view.ir/pages/country?name=%D8%B1%D9%88%D8%A7%D9%86%D8%AF%D8%A7</loc>
+       <lastmod>2026-07-18T14:42:34+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.4096</priority>
+  </url>
+  <url>
+       <loc>https://country-view.ir/pages/country?name=%DA%AF%DB%8C%D9%86%D9%87%20%D8%A7%D8%B3%D8%AA%D9%88%D8%A7%DB%8C%DB%8C</loc>
+       <lastmod>2026-07-18T14:42:34+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.4096</priority>
+  </url>
+  <url>
+       <loc>https://country-view.ir/pages/country?name=%DA%AF%DB%8C%D9%86%D9%87%20%D8%A8%DB%8C%D8%B3%D8%A7%D8%A6%D9%88</loc>
+       <lastmod>2026-07-18T14:42:34+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.4096</priority>
+  </url>
+</urlset>

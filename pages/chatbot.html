@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>دستیار هوشمند | کشورنما</title>
+    <meta name="description" content="دستیار هوشمند کشورنما - پاسخ به سوالات شما درباره کشورهای جهان">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../assets/Remixicon/remixicon.css" />
+    <link rel="shortcut icon" href="../assets/images/united.ico.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/chat.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="logo">
+            <a href="/"><h1><i class="ri-earth-fill"></i>کشورنما</h1></a>
+        </div>
+    </header>
+
+    <section class="chatbot-section">
+        <div class="chatbot-container">
+            <!-- ===== هدر چت‌بات ===== -->
+            <div class="chatbot-header">
+                <div class="bot-icon">🤖</div>
+                <div class="header-info">
+                    <h3>دستیار هوشمند کشورنما</h3>
+                    <p><span class="status-dot"></span> آنلاین و آماده پاسخگویی</p>
+                </div>
+            </div>
+
+            <!-- ===== ناحیه پیام‌ها ===== -->
+            <div class="chatbot-messages" id="chatMessages">
+                <div class="message bot">
+                    سلام! 👋 من دستیار هوشمند «کشورنما» هستم. می‌تونی درباره هر کشوری از من بپرسی. مثلاً بپرس: «پایتخت استرالیا کجاست؟» یا «جمعیت برزیل چقدره؟» 🌍
+                </div>
+            </div>
+
+            <!-- ===== سوالات پیشنهادی ===== -->
+            <div class="suggested-questions">
+                <button class="suggested-btn" data-question="پایتخت فرانسه کجاست؟">
+                    🏛️ پایتخت فرانسه
+                </button>
+                <button class="suggested-btn" data-question="جمعیت برزیل چقدره؟">
+                    👥 جمعیت برزیل
+                </button>
+                <button class="suggested-btn" data-question="غذاهای معروف ژاپن چیست؟">
+                    🍣 غذاهای ژاپن
+                </button>
+                <button class="suggested-btn" data-question="جاهای دیدنی ترکیه کدامند؟">
+                    🕌 جاهای دیدنی ترکیه
+                </button>
+                <button class="suggested-btn" data-question="واحد پول آلمان چیست؟">
+                    💰 واحد پول آلمان
+                </button>
+                <button class="suggested-btn" data-question="زبان رسمی ایتالیا چیست؟">
+                    🗣️ زبان ایتالیا
+                </button>
+            </div>
+
+            <!-- ===== ناحیه ورودی ===== -->
+            <div class="chatbot-input-area">
+                <input 
+                    type="text" 
+                    id="chatInput" 
+                    placeholder="سوال خود را بنویسید..." 
+                    autocomplete="off">
+                <button id="sendBtn">
+                    <i class="ri-send-plane-fill"></i>
+                    <span>ارسال</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <script src="../js/chatbot.js"></script>
+</body>
+</html>

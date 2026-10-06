@@ -1,0 +1,1975 @@
+/* ============================================
+   responsive.css - کاملاً هماهنگ با style.css شما
+   ============================================ */
+
+/* ===== دسکتاپ بزرگ (1200px به بالا) ===== */
+@media (min-width: 1200px) {
+    .countrys {
+        padding: 110px 110px 110px 110px;
+        gap: 1rem;
+    }
+    
+    .country-bio {
+        width: 400px;
+        height: 411px;
+    }
+}
+
+/* ===== دسکتاپ متوسط (992px - 1199px) ===== */
+@media (max-width: 1199px) {
+    .countrys {
+        padding: 80px 60px;
+        gap: 0.8rem;
+        justify-content: center;
+    }
+    
+    .country-bio {
+        width: 350px;
+        height: 380px;
+    }
+    
+    .flag {
+        width: 200px;
+    }
+    
+    .stats {
+        padding-right: 30px;
+        padding-left: 30px;
+        height: auto;
+        min-height: 150px;
+    }
+    
+    .search {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+/* ===== تبلت (768px - 991px) ===== */
+@media (max-width: 991px) {
+    .countrys {
+        padding: 50px 30px;
+        gap: 0.8rem;
+        justify-content: center;
+    }
+    
+    .country-bio {
+        width: 300px;
+        height: 360px;
+    }
+    
+    .country-bio .country-flags {
+        height: 130px;
+        padding-top: 15px;
+    }
+    
+    .country-bio .country-info-box {
+        padding: 15px;
+    }
+    
+    .flag {
+        width: 170px;
+    }
+    
+    .product-title {
+        font-size: 1.1rem;
+    }
+    
+    .country-info {
+        font-size: 0.75rem;
+    }
+    
+    .stats {
+        padding-right: 20px;
+        padding-left: 20px;
+        gap: 15px;
+        height: auto;
+    }
+    
+    .stat-item {
+        padding: 15px 20px;
+        min-width: 120px;
+    }
+    
+    .stat-number {
+        font-size: 1.5rem;
+    }
+    
+    .stat-label {
+        font-size: 1.8rem;
+    }
+    
+    .search {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .search input {
+        padding: 12px 16px;
+        font-size: 0.9rem;
+    }
+    
+    .filter-btn {
+        padding: 6px 14px;
+        font-size: 12px;
+    }
+    
+    /* مودال */
+    .modal-content {
+        max-width: 500px;
+        padding: 25px 25px;
+    }
+    
+    .modal-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 6px 12px;
+    }
+    
+    .modal-item {
+        font-size: 0.85rem;
+    }
+    
+    /* جزئیات */
+    .detail-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 12px;
+    }
+    
+    .detail-flag-img {
+        width: 90px;
+    }
+    
+    .detail-title h1 {
+        font-size: 1.6rem;
+    }
+    
+    .detail-card {
+        padding: 12px 14px;
+    }
+}
+
+/* ===== موبایل بزرگ (576px - 767px) ===== */
+@media (max-width: 767px) {
+    body {
+        padding: 10px 8px;
+    }
+    
+    .main-header {
+        padding-top: 10px;
+    }
+    
+    .main-header .logo {
+        padding: 8px 15px;
+        border-radius: 12px;
+    }
+    
+    .main-header .logo h1 {
+        font-size: 1.2rem;
+    }
+    
+    .stats {
+        flex-direction: row;
+        padding: 12px 15px;
+        gap: 12px;
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .stat-item {
+        padding: 12px 18px;
+        min-width: 100px;
+        flex: 0 1 auto;
+    }
+    
+    .stat-number {
+        font-size: 1.2rem;
+    }
+    
+    .stat-label {
+        font-size: 1.2rem;
+    }
+    
+    .left {
+        width: auto;
+    }
+    
+    .search {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    .search input {
+        padding: 10px 14px;
+        font-size: 0.85rem;
+        border-radius: 10px;
+    }
+    
+    .filter-container {
+        margin: 10px 0 15px 0;
+        padding: 5px;
+        gap: 6px;
+    }
+    
+    .filter-buttons {
+        padding: 8px 12px;
+        border-radius: 12px;
+        gap: 5px;
+    }
+    
+    .filter-btn {
+        padding: 5px 12px;
+        font-size: 11px;
+        border-radius: 30px;
+    }
+    
+    .countrys {
+        padding: 20px 15px;
+        gap: 0.8rem;
+        justify-content: center;
+    }
+    
+    .country-bio {
+        width: 100%;
+        max-width: 320px;
+        height: auto;
+        min-height: 340px;
+        border-radius: 20px;
+    }
+    
+    .country-bio .country-flags {
+        height: 120px;
+        padding-top: 12px;
+        border-radius: 15px 15px 0 0;
+    }
+    
+    .country-bio .country-info-box {
+        padding: 12px 15px;
+    }
+    
+    .flag {
+        width: 140px;
+    }
+    
+    .product-title {
+        font-size: 1rem;
+        margin-bottom: 10px;
+    }
+    
+    .country-info {
+        font-size: 0.7rem;
+        line-height: 1.6;
+    }
+    
+    .suis {
+        height: 120px;
+        width: 120px;
+    }
+    
+    /* مودال */
+    .modal-content {
+        max-width: 95%;
+        padding: 20px 18px;
+        margin: 10px;
+        border-radius: 16px;
+    }
+    
+    .modal-header {
+        flex-direction: column;
+        text-align: center;
+        gap: 8px;
+        padding-bottom: 12px;
+        margin-bottom: 14px;
+    }
+    
+    .modal-flag {
+        font-size: 32px;
+    }
+    
+    .modal-title {
+        font-size: 1.1rem;
+    }
+    
+    .modal-grid {
+        grid-template-columns: 1fr;
+        gap: 4px;
+    }
+    
+    .modal-item {
+        font-size: 0.8rem;
+        padding: 4px 0;
+    }
+    
+    .modal-label {
+        min-width: 55px;
+    }
+    
+    .modal-close {
+        top: 10px;
+        left: 12px;
+        font-size: 20px;
+        padding: 4px 8px;
+    }
+    
+    .modal-funfact,
+    .modal-famous,
+    .modal-food {
+        padding: 8px 12px;
+        font-size: 0.8rem;
+    }
+    
+    /* جزئیات */
+    .country-detail {
+        padding: 15px 10px;
+    }
+    
+    .detail-container {
+        padding: 16px 14px;
+        border-radius: 14px;
+    }
+    
+    .detail-header {
+        flex-direction: column;
+        text-align: center;
+        gap: 12px;
+        padding-bottom: 16px;
+        margin-bottom: 18px;
+    }
+    
+    .detail-flag-img {
+        width: 70px;
+    }
+    
+    .detail-title h1 {
+        font-size: 1.3rem;
+    }
+    
+    .detail-subtitle {
+        font-size: 0.8rem;
+    }
+    
+    .detail-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 8px;
+    }
+    
+    .detail-card {
+        padding: 10px 8px;
+        border-radius: 8px;
+    }
+    
+    .detail-card-icon {
+        font-size: 20px;
+    }
+    
+    .detail-card-value {
+        font-size: 0.8rem;
+    }
+    
+    .detail-card-label {
+        font-size: 10px;
+    }
+    
+    .detail-section {
+        padding: 12px 14px;
+        margin-top: 12px;
+    }
+    
+    .detail-section h3 {
+        font-size: 15px;
+    }
+    
+    .detail-section p {
+        font-size: 0.85rem;
+        line-height: 1.6;
+    }
+    
+    .detail-tag {
+        font-size: 11px;
+        padding: 4px 10px;
+    }
+    
+    .map-container iframe {
+        height: 150px;
+    }
+    
+    .wiki-link {
+        font-size: 13px;
+        padding: 10px 14px;
+    }
+    
+    .wiki-icon {
+        width: 20px;
+        height: 20px;
+    }
+    
+    .back-btn {
+        font-size: 12px;
+        padding: 6px 12px;
+    }
+    
+    /* فوتر */
+    .main-footer {
+        padding: 15px 0;
+        margin-top: 25px;
+    }
+    
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 12px;
+        padding: 0 15px;
+    }
+    
+    .footer-copy {
+        font-size: 12px;
+    }
+    
+    .footer-icons a {
+        font-size: 18px;
+    }
+}
+
+/* ===== موبایل کوچک (تا 575px) ===== */
+@media (max-width: 575px) {
+    body {
+        padding: 6px 4px;
+    }
+    
+    .main-header .logo {
+        padding: 6px 12px;
+        border-radius: 10px;
+    }
+    
+    .main-header .logo h1 {
+        font-size: 1rem;
+    }
+    
+    .stats {
+        padding: 8px 10px;
+        gap: 8px;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .stat-item {
+        padding: 8px 14px;
+        min-width: 80px;
+        width: 100%;
+        max-width: 200px;
+    }
+    
+    .stat-number {
+        font-size: 1rem;
+    }
+    
+    .stat-label {
+        font-size: 1rem;
+    }
+    
+    .search {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    
+    .search input {
+        padding: 8px 12px;
+        font-size: 0.75rem;
+        border-radius: 8px;
+    }
+    
+    .filter-container {
+        margin: 5px 0 10px 0;
+        padding: 3px;
+        gap: 4px;
+    }
+    
+    .filter-buttons {
+        padding: 5px 8px;
+        border-radius: 10px;
+        gap: 3px;
+    }
+    
+    .filter-btn {
+        padding: 4px 8px;
+        font-size: 9px;
+        border-radius: 20px;
+    }
+    
+    .filter-btn.active {
+        box-shadow: 0 2px 12px rgba(26, 35, 126, 0.2);
+    }
+    
+    .countrys {
+        padding: 10px 6px;
+        gap: 0.6rem;
+        justify-content: center;
+    }
+    
+    .country-bio {
+        width: 100%;
+        max-width: 270px;
+        min-height: 280px;
+        border-radius: 16px;
+    }
+    
+    .country-bio .country-flags {
+        height: 100px;
+        padding-top: 8px;
+        border-radius: 12px 12px 0 0;
+        font-size: 30px;
+    }
+    
+    .country-bio .country-info-box {
+        padding: 8px 10px;
+    }
+    
+    .flag {
+        width: 110px;
+    }
+    
+    .product-title {
+        font-size: 0.85rem;
+        margin-bottom: 6px;
+    }
+    
+    .country-info {
+        font-size: 0.6rem;
+        line-height: 1.5;
+    }
+    
+    .suis {
+        height: 100px;
+        width: 100px;
+    }
+    
+    .btn-box .more {
+        padding: 12px 15px;
+        font-size: 12px;
+        border-radius: 15px;
+    }
+    
+    /* مودال */
+    .modal-content {
+        padding: 14px 12px;
+        border-radius: 12px;
+    }
+    
+    .modal-flag {
+        font-size: 28px;
+    }
+    
+    .modal-title {
+        font-size: 0.95rem;
+    }
+    
+    .modal-item {
+        font-size: 0.7rem;
+    }
+    
+    .modal-label {
+        min-width: 45px;
+    }
+    
+    .modal-close {
+        top: 8px;
+        left: 8px;
+        font-size: 16px;
+        padding: 3px 6px;
+    }
+    
+    .modal-funfact,
+    .modal-famous,
+    .modal-food {
+        padding: 6px 8px;
+        font-size: 0.7rem;
+    }
+    
+    /* جزئیات */
+    .country-detail {
+        padding: 8px 4px;
+    }
+    
+    .detail-container {
+        padding: 10px 8px;
+        border-radius: 10px;
+    }
+    
+    .detail-header {
+        gap: 8px;
+        padding-bottom: 10px;
+        margin-bottom: 12px;
+    }
+    
+    .detail-flag-img {
+        width: 50px;
+    }
+    
+    .detail-title h1 {
+        font-size: 1rem;
+    }
+    
+    .detail-subtitle {
+        font-size: 0.7rem;
+    }
+    
+    .detail-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 4px;
+    }
+    
+    .detail-card {
+        padding: 6px 4px;
+        border-radius: 6px;
+    }
+    
+    .detail-card-icon {
+        font-size: 14px;
+    }
+    
+    .detail-card-value {
+        font-size: 0.65rem;
+    }
+    
+    .detail-card-label {
+        font-size: 8px;
+    }
+    
+    .detail-section {
+        padding: 8px 10px;
+        margin-top: 8px;
+        border-radius: 6px;
+    }
+    
+    .detail-section h3 {
+        font-size: 12px;
+    }
+    
+    .detail-section h3 span {
+        font-size: 14px;
+    }
+    
+    .detail-section p {
+        font-size: 0.75rem;
+        line-height: 1.4;
+    }
+    
+    .detail-tag {
+        font-size: 9px;
+        padding: 2px 6px;
+    }
+    
+    .map-container iframe {
+        height: 120px;
+    }
+    
+    .wiki-link {
+        font-size: 11px;
+        padding: 8px 10px;
+        gap: 6px;
+    }
+    
+    .wiki-icon {
+        width: 16px;
+        height: 16px;
+    }
+    
+    .back-btn {
+        font-size: 10px;
+        padding: 4px 10px;
+        border-radius: 20px;
+    }
+    
+    /* فوتر */
+    .main-footer {
+        padding: 12px 0;
+        margin-top: 20px;
+    }
+    
+    .footer-content {
+        gap: 8px;
+    }
+    
+    .footer-copy {
+        font-size: 10px;
+    }
+    
+    .footer-icons a {
+        font-size: 16px;
+    }
+}
+
+/* ============================================
+   صفحه دیباگ - ریسپانسیو
+   ============================================ */
+
+@media (max-width: 767px) {
+    .debugging-box {
+        padding: 20px 15px;
+    }
+    
+    .debugging-box .main {
+        padding: 20px 15px;
+        border-radius: 12px;
+    }
+    
+    .debugging-box h2 {
+        font-size: 1.1rem;
+    }
+    
+    .debugging-box .h4 {
+        font-size: 0.9rem;
+        word-break: break-all;
+    }
+}
+
+@media (max-width: 575px) {
+    .debugging-box {
+        padding: 15px 10px;
+    }
+    
+    .debugging-box .main {
+        padding: 15px 10px;
+    }
+    
+    .debugging-box h2 {
+        font-size: 0.9rem;
+    }
+    
+    .debugging-box .h4 {
+        font-size: 0.75rem;
+    }
+}
+
+/* ============================================
+   منوی پایین - ریسپانسیو
+   ============================================ */
+
+@media (max-width: 767px) {
+    .menu-container {
+        padding: 8px 15px;
+        border-radius: 40px;
+        bottom: 1rem;
+    }
+    
+    .menu-container .menu-list {
+        gap: 15px;
+    }
+    
+    .menu-container .menu-list .menu-link {
+        width: 40px;
+        height: 40px;
+        font-size: 18px;
+    }
+    
+    .menu-container .menu-list .menu-link::after {
+        font-size: 10px;
+        padding: 3px 10px;
+        top: -70%;
+    }
+}
+
+@media (max-width: 575px) {
+    .menu-container {
+        padding: 6px 12px;
+        border-radius: 30px;
+        bottom: 0.5rem;
+        max-width: 95%;
+    }
+    
+    .menu-container .menu-list {
+        gap: 10px;
+    }
+    
+    .menu-container .menu-list .menu-link {
+        width: 35px;
+        height: 35px;
+        font-size: 15px;
+    }
+    
+    .menu-container .menu-list .menu-link::after {
+        display: none;
+    }
+    
+    .menu-container .menu-list .menu-link::before {
+        display: none;
+    }
+}
+/* ============================================
+   ریسپانسیو کامل - صفحه اصلی (index.html)
+   ============================================ */
+
+/* ===== دسکتاپ بزرگ (1200px به بالا) ===== */
+@media (min-width: 1200px) {
+    .countrys {
+        padding: 100px 110px;
+        gap: 1.5rem;
+        justify-content: center;
+    }
+    
+    .country-bio {
+        width: 380px;
+        height: auto;
+        min-height: 400px;
+    }
+}
+
+/* ===== دسکتاپ متوسط (992px - 1199px) ===== */
+@media (max-width: 1199px) {
+    .main-header {
+        padding: 12px 20px;
+        gap: 10px;
+    }
+    
+    .main-header .logo h1 {
+        font-size: 1.1rem;
+    }
+    
+    .countrys {
+        padding: 60px 40px;
+        gap: 1.2rem;
+        justify-content: center;
+    }
+    
+    .country-bio {
+        width: 340px;
+        height: auto;
+        min-height: 380px;
+    }
+    
+    .flag {
+        width: 200px;
+    }
+    
+    .stats {
+        padding-right: 30px;
+        padding-left: 30px;
+        height: auto;
+        min-height: 150px;
+    }
+    
+    .search {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    
+    .filter-container {
+        padding: 10px;
+    }
+}
+
+/* ===== تبلت (768px - 991px) ===== */
+@media (max-width: 991px) {
+    /* هدر */
+    .main-header {
+        padding: 10px 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 8px;
+    }
+    
+    .main-header .logo {
+        padding: 8px 12px;
+        border-radius: 12px;
+    }
+    
+    .main-header .logo h1 {
+        font-size: 0.95rem;
+    }
+    
+    /* فیلتر */
+    .filter-container {
+        padding: 8px;
+        margin: 15px 0 20px;
+    }
+    
+    .filter-buttons {
+        padding: 8px 12px;
+        gap: 5px;
+    }
+    
+    .filter-btn {
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+    
+    /* آمار */
+    .stats {
+        padding: 15px 20px;
+        gap: 15px;
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .stat-item {
+        padding: 15px 20px;
+        min-width: 120px;
+    }
+    
+    .stat-number {
+        font-size: 1.5rem;
+    }
+    
+    .stat-label {
+        font-size: 1.5rem;
+    }
+    
+    /* جستجو */
+    .search {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .search input {
+        padding: 12px 16px;
+        font-size: 0.9rem;
+    }
+    
+    /* کارت‌ها */
+    .countrys {
+        padding: 30px 20px;
+        gap: 1rem;
+        justify-content: center;
+    }
+    
+    .country-bio {
+        width: 300px;
+        height: auto;
+        min-height: 360px;
+    }
+    
+    .country-bio .country-flags {
+        height: 130px;
+        padding-top: 15px;
+    }
+    
+    .country-bio .country-info-box {
+        padding: 15px;
+    }
+    
+    .flag {
+        width: 170px;
+    }
+    
+    .product-title {
+        font-size: 1.1rem;
+    }
+    
+    .country-info {
+        font-size: 0.8rem;
+    }
+    
+    /* دکمه بیشتر */
+    .btn-box {
+        margin: 20px 0;
+    }
+    
+    .more {
+        padding: 15px 25px;
+        font-size: 14px;
+    }
+    
+    /* فوتر */
+    .main-footer {
+        padding: 15px 0;
+        margin-top: 30px;
+    }
+    
+    .footer-content {
+        padding: 0 15px;
+        gap: 12px;
+    }
+    
+    .footer-copy {
+        font-size: 13px;
+    }
+}
+
+/* ===== موبایل بزرگ (576px - 767px) ===== */
+@media (max-width: 767px) {
+    body {
+        padding: 10px 8px;
+    }
+    
+    /* هدر */
+    .main-header {
+        padding: 10px 12px;
+        gap: 6px;
+        border-radius: 12px;
+        margin-bottom: 12px;
+    }
+    
+    .main-header .logo {
+        padding: 6px 10px;
+        border-radius: 10px;
+    }
+    
+    .main-header .logo h1 {
+        font-size: 0.8rem;
+        gap: 4px;
+    }
+    
+    .main-header .logo h1 i {
+        font-size: 0.9rem;
+    }
+    
+    /* فیلتر */
+    .filter-container {
+        padding: 5px;
+        margin: 10px 0 15px;
+        gap: 5px;
+    }
+    
+    .filter-buttons {
+        padding: 6px 8px;
+        gap: 4px;
+        border-radius: 12px;
+    }
+    
+    .filter-btn {
+        padding: 5px 10px;
+        font-size: 11px;
+        border-radius: 30px;
+    }
+    
+    /* آمار */
+    .stats {
+        flex-direction: row;
+        padding: 10px 12px;
+        gap: 10px;
+        height: auto;
+        border-radius: 10px;
+        margin-bottom: 12px;
+        justify-content: center;
+    }
+    
+    .stat-item {
+        padding: 10px 15px;
+        min-width: 100px;
+        flex: 0 1 auto;
+    }
+    
+    .stat-number {
+        font-size: 1.1rem;
+    }
+    
+    .stat-label {
+        font-size: 1rem;
+    }
+    
+    /* جستجو */
+    .search {
+        padding-left: 10px;
+        padding-right: 10px;
+        margin: 10px 0 15px;
+    }
+    
+    .search input {
+        padding: 10px 14px;
+        font-size: 0.85rem;
+        border-radius: 10px;
+    }
+    
+    /* خط جداکننده */
+    hr {
+        margin: 15px 0;
+    }
+    
+    /* کارت‌ها */
+    .countrys {
+        padding: 15px 10px;
+        gap: 0.8rem;
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .country-bio {
+        width: 100%;
+        max-width: 340px;
+        height: auto;
+        min-height: 340px;
+        border-radius: 20px;
+        margin: 0 auto;
+    }
+    
+    .country-bio .country-flags {
+        height: 120px;
+        padding-top: 12px;
+        border-radius: 15px 15px 0 0;
+    }
+    
+    .country-bio .country-info-box {
+        padding: 12px 15px;
+    }
+    
+    .flag {
+        width: 140px;
+    }
+    
+    .product-title {
+        font-size: 1rem;
+        margin-bottom: 10px;
+    }
+    
+    .country-info {
+        font-size: 0.75rem;
+        line-height: 1.6;
+    }
+    
+    /* دکمه بیشتر */
+    .btn-box {
+        margin: 20px 0;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .more {
+        padding: 12px 30px;
+        font-size: 13px;
+        border-radius: 15px;
+    }
+    
+    /* فوتر */
+    .main-footer {
+        padding: 15px 0;
+        margin-top: 25px;
+    }
+    
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+        padding: 0 15px;
+    }
+    
+    .footer-copy {
+        font-size: 12px;
+    }
+    
+    .footer-icons a {
+        font-size: 18px;
+    }
+}
+
+/* ===== موبایل کوچک (تا 575px) ===== */
+@media (max-width: 575px) {
+    body {
+        padding: 6px 4px;
+    }
+    
+    /* هدر */
+    .main-header {
+        padding: 8px 8px;
+        gap: 4px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .main-header .logo {
+        padding: 5px 8px;
+        border-radius: 8px;
+    }
+    
+    .main-header .logo h1 {
+        font-size: 0.7rem;
+        gap: 3px;
+    }
+    
+    .main-header .logo h1 i {
+        font-size: 0.8rem;
+    }
+    
+    /* فیلتر */
+    .filter-container {
+        padding: 3px;
+        margin: 8px 0 12px;
+        gap: 3px;
+    }
+    
+    .filter-buttons {
+        padding: 5px 6px;
+        gap: 3px;
+        border-radius: 10px;
+    }
+    
+    .filter-btn {
+        padding: 4px 8px;
+        font-size: 9px;
+        border-radius: 20px;
+    }
+    
+    .filter-btn.active {
+        box-shadow: 0 2px 12px rgba(26, 35, 126, 0.2);
+    }
+    
+    /* آمار */
+    .stats {
+        padding: 8px 10px;
+        gap: 8px;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .stat-item {
+        padding: 8px 12px;
+        min-width: 80px;
+        width: 100%;
+        max-width: 200px;
+    }
+    
+    .stat-number {
+        font-size: 1rem;
+    }
+    
+    .stat-label {
+        font-size: 0.9rem;
+    }
+    
+    /* جستجو */
+    .search {
+        padding-left: 5px;
+        padding-right: 5px;
+        margin: 8px 0 12px;
+    }
+    
+    .search input {
+        padding: 8px 12px;
+        font-size: 0.75rem;
+        border-radius: 8px;
+    }
+    
+    /* کارت‌ها */
+    .countrys {
+        padding: 10px 5px;
+        gap: 0.6rem;
+        justify-content: center;
+    }
+    
+    .country-bio {
+        width: 100%;
+        max-width: 300px;
+        min-height: 300px;
+        border-radius: 16px;
+    }
+    
+    .country-bio .country-flags {
+        height: 100px;
+        padding-top: 8px;
+        border-radius: 12px 12px 0 0;
+    }
+    
+    .country-bio .country-info-box {
+        padding: 10px 12px;
+    }
+    
+    .flag {
+        width: 110px;
+    }
+    
+    .product-title {
+        font-size: 0.9rem;
+        margin-bottom: 6px;
+    }
+    
+    .country-info {
+        font-size: 0.7rem;
+        line-height: 1.5;
+    }
+    
+    /* دکمه بیشتر */
+    .btn-box {
+        margin: 15px 0;
+    }
+    
+    .more {
+        padding: 10px 25px;
+        font-size: 12px;
+        border-radius: 12px;
+    }
+    
+    /* فوتر */
+    .main-footer {
+        padding: 12px 0;
+        margin-top: 20px;
+    }
+    
+    .footer-content {
+        gap: 8px;
+        padding: 0 10px;
+    }
+    
+    .footer-copy {
+        font-size: 10px;
+    }
+    
+    .footer-icons a {
+        font-size: 16px;
+    }
+}
+/* ============================================
+   ریسپانسیو کامل - صفحه اصلی (index.html)
+   ============================================ */
+
+/* ===== دسکتاپ بزرگ (1200px به بالا) ===== */
+@media (min-width: 1200px) {
+    .countrys {
+        padding: 100px 110px;
+        gap: 1.5rem;
+        justify-content: center;
+    }
+    
+    .country-bio {
+        width: 380px;
+        height: auto;
+        min-height: 400px;
+    }
+}
+
+/* ===== دسکتاپ متوسط (992px - 1199px) ===== */
+@media (max-width: 1199px) {
+    .main-header {
+        padding: 12px 20px;
+        gap: 10px;
+    }
+    
+    .main-header .logo h1 {
+        font-size: 1.1rem;
+    }
+    
+    .countrys {
+        padding: 60px 40px;
+        gap: 1.2rem;
+        justify-content: center;
+    }
+    
+    .country-bio {
+        width: 340px;
+        height: auto;
+        min-height: 380px;
+    }
+    
+    .flag {
+        width: 200px;
+    }
+    
+    .stats {
+        padding-right: 30px;
+        padding-left: 30px;
+        height: auto;
+        min-height: 150px;
+    }
+    
+    .search {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    
+    .filter-container {
+        padding: 10px;
+    }
+}
+
+/* ===== تبلت (768px - 991px) ===== */
+@media (max-width: 991px) {
+    /* هدر */
+    .main-header {
+        padding: 10px 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 8px;
+    }
+    
+    .main-header .logo {
+        padding: 8px 12px;
+        border-radius: 12px;
+    }
+    
+    .main-header .logo h1 {
+        font-size: 0.95rem;
+    }
+    
+    /* فیلتر */
+    .filter-container {
+        padding: 8px;
+        margin: 15px 0 20px;
+    }
+    
+    .filter-buttons {
+        padding: 8px 12px;
+        gap: 5px;
+    }
+    
+    .filter-btn {
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+    
+    /* آمار */
+    .stats {
+        padding: 15px 20px;
+        gap: 15px;
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .stat-item {
+        padding: 15px 20px;
+        min-width: 120px;
+    }
+    
+    .stat-number {
+        font-size: 1.5rem;
+    }
+    
+    .stat-label {
+        font-size: 1.5rem;
+    }
+    
+    /* جستجو */
+    .search {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .search input {
+        padding: 12px 16px;
+        font-size: 0.9rem;
+    }
+    
+    /* کارت‌ها */
+    .countrys {
+        padding: 30px 20px;
+        gap: 1rem;
+        justify-content: center;
+    }
+    
+    .country-bio {
+        width: 300px;
+        height: auto;
+        min-height: 360px;
+    }
+    
+    .country-bio .country-flags {
+        height: 130px;
+        padding-top: 15px;
+    }
+    
+    .country-bio .country-info-box {
+        padding: 15px;
+    }
+    
+    .flag {
+        width: 170px;
+    }
+    
+    .product-title {
+        font-size: 1.1rem;
+    }
+    
+    .country-info {
+        font-size: 0.8rem;
+    }
+    
+    /* دکمه بیشتر */
+    .btn-box {
+        margin: 20px 0;
+    }
+    
+    .more {
+        padding: 15px 25px;
+        font-size: 14px;
+    }
+    
+    /* فوتر */
+    .main-footer {
+        padding: 15px 0;
+        margin-top: 30px;
+    }
+    
+    .footer-content {
+        padding: 0 15px;
+        gap: 12px;
+    }
+    
+    .footer-copy {
+        font-size: 13px;
+    }
+}
+
+/* ===== موبایل بزرگ (576px - 767px) ===== */
+@media (max-width: 767px) {
+    body {
+        padding: 10px 8px;
+    }
+    
+    /* هدر */
+    .main-header {
+        padding: 10px 12px;
+        gap: 6px;
+        border-radius: 12px;
+        margin-bottom: 12px;
+    }
+    
+    .main-header .logo {
+        padding: 6px 10px;
+        border-radius: 10px;
+    }
+    
+    .main-header .logo h1 {
+        font-size: 0.8rem;
+        gap: 4px;
+    }
+    
+    .main-header .logo h1 i {
+        font-size: 0.9rem;
+    }
+    
+    /* فیلتر */
+    .filter-container {
+        padding: 5px;
+        margin: 10px 0 15px;
+        gap: 5px;
+    }
+    
+    .filter-buttons {
+        padding: 6px 8px;
+        gap: 4px;
+        border-radius: 12px;
+    }
+    
+    .filter-btn {
+        padding: 5px 10px;
+        font-size: 11px;
+        border-radius: 30px;
+    }
+    
+    /* آمار */
+    .stats {
+        flex-direction: row;
+        padding: 10px 12px;
+        gap: 10px;
+        height: auto;
+        border-radius: 10px;
+        margin-bottom: 12px;
+        justify-content: center;
+    }
+    
+    .stat-item {
+        padding: 10px 15px;
+        min-width: 100px;
+        flex: 0 1 auto;
+    }
+    
+    .stat-number {
+        font-size: 1.1rem;
+    }
+    
+    .stat-label {
+        font-size: 1rem;
+    }
+    
+    /* جستجو */
+    .search {
+        padding-left: 10px;
+        padding-right: 10px;
+        margin: 10px 0 15px;
+    }
+    
+    .search input {
+        padding: 10px 14px;
+        font-size: 0.85rem;
+        border-radius: 10px;
+    }
+    
+    /* خط جداکننده */
+    hr {
+        margin: 15px 0;
+    }
+    
+    /* کارت‌ها */
+    .countrys {
+        padding: 15px 10px;
+        gap: 0.8rem;
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .country-bio {
+        width: 100%;
+        max-width: 340px;
+        height: auto;
+        min-height: 340px;
+        border-radius: 20px;
+        margin: 0 auto;
+    }
+    
+    .country-bio .country-flags {
+        height: 120px;
+        padding-top: 12px;
+        border-radius: 15px 15px 0 0;
+    }
+    
+    .country-bio .country-info-box {
+        padding: 12px 15px;
+    }
+    
+    .flag {
+        width: 140px;
+    }
+    
+    .product-title {
+        font-size: 1rem;
+        margin-bottom: 10px;
+    }
+    
+    .country-info {
+        font-size: 0.75rem;
+        line-height: 1.6;
+    }
+    
+    /* دکمه بیشتر */
+    .btn-box {
+        margin: 20px 0;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .more {
+        padding: 12px 30px;
+        font-size: 13px;
+        border-radius: 15px;
+    }
+    
+    /* فوتر */
+    .main-footer {
+        padding: 15px 0;
+        margin-top: 25px;
+    }
+    
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+        padding: 0 15px;
+    }
+    
+    .footer-copy {
+        font-size: 12px;
+    }
+    
+    .footer-icons a {
+        font-size: 18px;
+    }
+}
+
+/* ===== موبایل کوچک (تا 575px) ===== */
+@media (max-width: 575px) {
+    body {
+        padding: 6px 4px;
+    }
+    
+    /* هدر */
+    .main-header {
+        padding: 8px 8px;
+        gap: 4px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .main-header .logo {
+        padding: 5px 8px;
+        border-radius: 8px;
+    }
+    
+    .main-header .logo h1 {
+        font-size: 0.7rem;
+        gap: 3px;
+    }
+    
+    .main-header .logo h1 i {
+        font-size: 0.8rem;
+    }
+    
+    /* فیلتر */
+    .filter-container {
+        padding: 3px;
+        margin: 8px 0 12px;
+        gap: 3px;
+    }
+    
+    .filter-buttons {
+        padding: 5px 6px;
+        gap: 3px;
+        border-radius: 10px;
+    }
+    
+    .filter-btn {
+        padding: 4px 8px;
+        font-size: 9px;
+        border-radius: 20px;
+    }
+    
+    .filter-btn.active {
+        box-shadow: 0 2px 12px rgba(26, 35, 126, 0.2);
+    }
+    
+    /* آمار */
+    .stats {
+        padding: 8px 10px;
+        gap: 8px;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .stat-item {
+        padding: 8px 12px;
+        min-width: 80px;
+        width: 100%;
+        max-width: 200px;
+    }
+    
+    .stat-number {
+        font-size: 1rem;
+    }
+    
+    .stat-label {
+        font-size: 0.9rem;
+    }
+    
+    /* جستجو */
+    .search {
+        padding-left: 5px;
+        padding-right: 5px;
+        margin: 8px 0 12px;
+    }
+    
+    .search input {
+        padding: 8px 12px;
+        font-size: 0.75rem;
+        border-radius: 8px;
+    }
+    
+    /* کارت‌ها */
+    .countrys {
+        padding: 10px 5px;
+        gap: 0.6rem;
+        justify-content: center;
+    }
+    
+    .country-bio {
+        width: 100%;
+        max-width: 300px;
+        min-height: 300px;
+        border-radius: 16px;
+    }
+    
+    .country-bio .country-flags {
+        height: 100px;
+        padding-top: 8px;
+        border-radius: 12px 12px 0 0;
+    }
+    
+    .country-bio .country-info-box {
+        padding: 10px 12px;
+    }
+    
+    .flag {
+        width: 110px;
+    }
+    
+    .product-title {
+        font-size: 0.9rem;
+        margin-bottom: 6px;
+    }
+    
+    .country-info {
+        font-size: 0.7rem;
+        line-height: 1.5;
+    }
+    
+    /* دکمه بیشتر */
+    .btn-box {
+        margin: 15px 0;
+    }
+    
+    .more {
+        padding: 10px 25px;
+        font-size: 12px;
+        border-radius: 12px;
+    }
+    
+    /* فوتر */
+    .main-footer {
+        padding: 12px 0;
+        margin-top: 20px;
+    }
+    
+    .footer-content {
+        gap: 8px;
+        padding: 0 10px;
+    }
+    
+    .footer-copy {
+        font-size: 10px;
+    }
+    
+    .footer-icons a {
+        font-size: 16px;
+    }
+}
+/* ============================================
+   ریسپانسیو کره زمین
+   ============================================ */
+
+/* ===== دسکتاپ بزرگ (1200px+) ===== */
+@media (min-width: 1200px) {
+    .globe-section {
+        height: calc(100vh - 120px);
+        max-width: 1200px;
+        margin: 20px auto;
+        border-radius: 20px;
+    }
+}
+
+/* ===== دسکتاپ متوسط (992px - 1199px) ===== */
+@media (max-width: 1199px) {
+    .globe-section {
+        height: calc(100vh - 110px);
+        max-width: 100%;
+        margin: 15px auto;
+        border-radius: 18px;
+    }
+
+    .globe-hint {
+        font-size: 12px;
+        padding: 6px 16px;
+    }
+}
+
+/* ===== تبلت (768px - 991px) ===== */
+@media (max-width: 991px) {
+    .globe-section {
+        height: calc(100vh - 100px);
+        margin: 10px auto;
+        border-radius: 16px;
+    }
+
+    .globe-back {
+        top: 15px;
+        right: 15px;
+    }
+
+    .globe-back a {
+        padding: 7px 16px;
+        font-size: 13px;
+    }
+
+    .globe-hint {
+        font-size: 11px;
+        padding: 6px 14px;
+        bottom: 15px;
+    }
+
+    .globe-tooltip {
+        font-size: 13px;
+        padding: 8px 14px;
+    }
+}
+
+/* ===== موبایل بزرگ (576px - 767px) ===== */
+@media (max-width: 767px) {
+    .globe-section {
+        height: calc(100vh - 90px);
+        margin: 8px auto;
+        border-radius: 14px;
+    }
+
+    .globe-back {
+        top: 10px;
+        right: 10px;
+    }
+
+    .globe-back a {
+        padding: 6px 14px;
+        font-size: 12px;
+        gap: 4px;
+    }
+
+    .globe-back a i {
+        font-size: 14px;
+    }
+
+    .globe-hint {
+        font-size: 10px;
+        padding: 5px 12px;
+        bottom: 10px;
+        gap: 5px;
+    }
+
+    .globe-hint i {
+        font-size: 13px;
+    }
+
+    .globe-tooltip {
+        font-size: 12px;
+        padding: 6px 12px;
+        border-radius: 8px;
+    }
+
+    .globe-tooltip img {
+        width: 20px !important;
+        height: auto !important;
+    }
+}
+
+/* ===== موبایل کوچک (تا 575px) ===== */
+@media (max-width: 575px) {
+    .globe-section {
+        height: calc(100vh - 80px);
+        margin: 5px auto;
+        border-radius: 12px;
+    }
+
+    .globe-back {
+        top: 8px;
+        right: 8px;
+    }
+
+    .globe-back a {
+        padding: 5px 10px;
+        font-size: 10px;
+        gap: 3px;
+        border-radius: 20px;
+    }
+
+    .globe-back a i {
+        font-size: 12px;
+    }
+
+    .globe-hint {
+        font-size: 9px;
+        padding: 4px 10px;
+        bottom: 8px;
+        gap: 3px;
+        border-radius: 20px;
+    }
+
+    .globe-hint i {
+        font-size: 11px;
+    }
+
+    .globe-tooltip {
+        font-size: 11px;
+        padding: 5px 10px;
+        border-radius: 6px;
+    }
+
+    .globe-tooltip img {
+        width: 16px !important;
+        height: auto !important;
+    }
+}
